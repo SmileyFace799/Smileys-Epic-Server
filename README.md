@@ -5,11 +5,18 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 1.0.1
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Mod list
-Mods that are *italicized* are client-side, and therefore optional<br/>
+# REQUIRED MODS
 Mods that are **bold** are significant content mods you probably care about
 ## Content
+- **Alex's Mobs** (Many more mobs that inhabit the world)
+- ATI Structures
+- ATI Structures Vanilla
 - Barched (Adds some mobs from newer game versions back into 1.21.1)
+- Better Days
+- **Better Combat** (Changes the combat systme to be like Minecraft Dungeons. For those who don't like this, there is Better Combat Toggler in the optional mods)
+  - Better Combat Particle AAddition (Adds particles to some of the Better Combat attacks)
+  - **Better Mob Combat** (Makes humanoid mobs use Better Combat mechanics)
+- Biome Replacer (Allows for certain biomes to be replaced on the server)
 - Chipped (Tons of variants of many blocks for building)
 - Chisels And Bits (Cut blocks into tiny bits for small building)
 - Cooking For Blockheads (Cook food, but fancy)
@@ -25,21 +32,63 @@ Mods that are **bold** are significant content mods you probably care about
     - Create: Tracks
     - Drive-By-Wire With Sable
     - Dyeable Ropes for Create Aeronautics
+  - Create: Bells & Whistles
   - Create: Better Villages (Also a dependency for Create: Dimensions, Steamworks Realm)
+  - Create: Bits 'n' Bobs
   - Create: Copycats+ (Make stairs, slabs, doors, fences, etc. out of any block texture)
+  - Create: Deco (Adds various decorative elements to Create)
+  - Create: Design n' Decor (Adds various decorative elements to Create)
+  - Create: Diesel Generators
+    - Oil Canister
   - **Create: Dimensions, Steamworks Realm**
     - Underground Village, Stoneholm
+  - Create: Dreams n' Desires
   - **Create: Numismatics**
     - Create: Marketplace
   - Create: Enchantment Industry
+  - Create: Interiors
   - **Create: Steam 'n' Rails** (Epic trains) [Note: This is using an unofficial port to 1.21.1, since the official mod is still only in 1.20.1]
   - Create: Vibrant Vaults
 - Critters and Companions
+- EnchantWithMob (Adds the Enchanter from Minecraft Dungeons)
 - **Envelope** (Send mail & messages & mail to other players through pigeons)
+- Epic Structures: Dungeons
+- Epic Structures: Igloo
+- ~~Epic Structures: Witch Huts~~ (Conflicts with YUNG's Better Witch Huts?)
+- Explorer's Compass (Compass to help you find specific structures you're looking for)
+- Exposure (Photography in Minecraft)
 - **Farmer's Delight** (Adds a bunch of foods)
+  - Expanded Delight
 - Golden Dandelion Backport
+- Grim Kingdoms: Lost Structures & Ruins
+- Grounded (Adds more soil types, with each affecting plant growth speed)
+- **Ice & Fire: Community Edition**
+- Illager Invasion (Adds more illager variants)
+- KubeJS (Allows modifying reecipes on the server)
+  - KubeJSable
+  - KubeJS Create
+  - KubeJS Diesel Generators
+  - LootJS (Allows modifying loot & drops on the server)
+  - MoreJS
+  - ProbeJS
+- Macaw's Bridges
+- Macaw's Doors
+- Macaw's Dences & Walls
+- Macaw's Furniture
+- Macaw's Holidays
+- Macaw's Lights & Lamps
+- Macaw's Paintings
+- Macaw's Paths & Pavings
+- Macaw's Roofs
+- Macaw's Stairs & Balconies
+- Macaw's Trapdoors
+- Macaw's Windows
+- Miku Plushie
+- Mo' Structures
+- Nature's Compass (Compass to help you find specific biomes you're looking for)
 - Nutritional balance
 - **Occultism** (Magic wizard slavery)
+- Pridecraft (Craftable LGBTQ+ flags)
 - Project Red Core
   - CB Multipart (Allows sawing blocks into smaller parts. Also a dependency for all Project Red mods)
   - Project Red Integration (Adds redstone logic gates that work with redstone wires)
@@ -66,113 +115,359 @@ Mods that are **bold** are significant content mods you probably care about
 - YUNG's Bridges
 - YUNG's Extras
 ## World Generation
-- Incendium (More nether biomes)
-- Nullscape (Better end generation)
-- Tectonic (Better terrain generation)
-- **William Wyther's Expanded Ecosphere** (Adds 200+ new biomes and makes biome generation more realistic)
-## Compatibility
-- *Colorwheel (Compatibility between Iris & Create)*
-- Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
-- Create: Chain Conveyors Compat (Compatibility between Create [chain conveyors] & Create: Aeronautics)
-- Create: Ferronautics (Compatibility between Create: Aeronautics & Create: Steam 'n' Rails)
-- Create: Slice & DIce (Compatibility between Create & Farmer's Delight)
-- *EMI Addon: Extra Mod Integrations (Compatibility between EMI and any other mods with "special" means of crafting things)*
-- Added FTB Chunks: Sable Aerospace (Compatibility between FTBChunks & Create: Aeronautics)
-- *Iris Veil Compat (Compatibility between Iris & Create: Aeronautics)*
-- ~~*JourneyMap Integration (Compatibility between JourneyMap & FTBChunks)*~~ (Disabled by default)
-- Rechiseled: Chipped (Compatibility between Rechiseled & Chipped)
-- Rechiseled: Create (Compatibility between Rechiseled & Create)
-- Vanilla Backport Compat (Compatibility between Vanilla Backport & William Wyther's Expanded Ecosystem)
-- Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
-## QoL
+- **Amplified Nether** (More nether biomes)
+- Continents (Makes landmasses divide more naturally into continents)
+- CliffTree (Small biome enhancements)
+- Dungeon Dimensions: Nether (Adds a few more details to nether biomes)
+- Feature Recycler (Fixes "feature order cycle" error)
+- **Nullscape** (Better end generation)
+- StructureOverlapless (Prevents multiple structures from generating on top of each other)
+- **Tectonic** (Better terrain generation)
+- **TerraBlender**
+## QoL & Small Tweaks
+- Accessories (Adds extra accessory slots for certain equippable items)
+- Aeronautics No Leaf Collision
 - Aeronautics: Deployer Direction Fix
-- *Aeronautics Camera Sync*
-- *AppleSkin (Shows food saturation & other food info)*
-- *Atmospheric Rain Backport*
+- Alex's Mobs
+- Almost Unified (Unifies duplicate resources)
+- Animal Feeding Trough (Automatic animal feeder)
+- Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
+- Bedspreads (Allows putting banner patterns on beds)
+- Cats Don't Care (Cats can find cozy sports to lie down & sleep)
 - Climbable Ropes for Create Aeronautics
-- *Create Sable Dynamic lights*
+- Clumps
+- Combat Roll
+- Companion (Pets have braincells & will actually try to stay alive)
+- Construction Wand (Very useful for building big things)
+- Crafting Station
+- Crafting Tweaks
+- Create Encased
+- Create Extra Casing (Colorable Create casings)
+- Create Liquid Fuel (Makes blaze burners accept liquid fuel)
+- Create More: Parallel Pipes
 - Create: AeroPortals (Aeronautics contraptions can go through portals)
+- Create: Colorful Catalysts
 - Create: Compact Flap
 - Create: Connected (QoL mechanical blocks for create)
+- Create: Pattern Schematics
 - Create: Stam1o Tweaks
-- Construction Wand (Very useful for building big things)
-- *Controlling (You can search controls now)*
 - **Creeper no Break Blocks** (Creepers don't destroy blocks, while stilll keeping `mobGriefing` on for other mobs)
+- Crops Love Rain (Crops grow faster when raining)
+- Cut Through (Swords swing through grass)
+- Diagonal Fences
+- Diagonal Walls
+- Diagonal Windows
+- Dismount Entity (Allows dismounting entities from boats)
 - Don't Break Items
-- *EMI (In-game item & recipe browser)*
-  - *EMI Enchanting*
-  - *EMI Loot*
-  - *EMI Ores*
-  - *EMI Professions*
-  - *EMI++*
+- Dyed Flames (Burning entities burn with the same color as what ignited them)
+- Easy Anvils (Overall improves anvils with various features)
+- Easy Magic (Overall improves enchantment tables with various features)
+- **Entombed** (When you die, creates a gravestone that holds your items, but you still lose xp. Solves the whole `keepInventory` debate)
 - FallingTree (Makes chopping down trees instant)
 - Falling Trees Physics (Create: Aeronautics contraptions can make trees fall over)
 - FTBChunks (Allows claiming area as "yours" on a map, up to 10 claimed chunks can be chunkloaded)
-- **Gravestone mod** (When you die, creates a gravestone that holds your items, but you still lose xp. Solves the whole `keepInventory` debate)
-- *Inventory Tweaks: ReFoxed (Inventory sorting, auto-replenish item stacks & a bunch of useful shortcuts)*
-- *Jade (Tells you what you're looking at, if you can mine it, and other information)*
-- ~~*JourneyMap (World map & minimap mod)*~~ (Disabled by default)
-- *Modefite - Item Definition Backport (Makes resource packs for newer game versions compatible with 1.21.1)*
-- *Mouse Tweaks (Adds handy mouse shortcuts for menuing)*
-- *Simple Voice Chat*
-- Smithing Tweaks
-- *Xaero's Minimap*
-- *Xaero's World Map*
+- Gallery (Adds icons for all paintings, and some extra painting tweaks)
+- Immersive Paintings (You can put any image you want on paintings)
+- Jump Over Fences
+- Jupiter (GUI for editing configs, config auto-syncing)
+- KleeSlabs (Allows breaking only the top or bottom half of a double slab)
+- Load My F***ing Tags (Prevents invalid tag entries from discarding the entire tag)
+- LootIntegrations (Integrates modded loot into loot tables from other mods)
+  - LootIntegrations ATI
+  - LootIntegrations Awesome
+  - LootIntegrations Better Archeology
+  - LootIntegrations DNT
+  - LootIntegrations Ice & Fire
+  - LootIntegrations Mo' Structures
+  - LootIntegrations Underground Villages
+  - LootIntegrations Vanilla
+- More Axolotl Variants
+- Nether Portal Fix
+- Packet Fixer
+- Personality (Adds sitting, crawling & other movement advancements)
+- Ping Wheel (Adds pings for communication between players)
+- Polymorph (Allows you to pick what item to craft when two items have the same exact recipe)
+- Remove Stardust Labs Intro Message (Removes the introduction message from Terralith, Incendium & Nullscape when joining a world for the first time)
+- Sable Pathfinder
+- Separated Leaves (Leaves now only belong to logs of their wood type)
+- Shield Sounds Backport (Shield blocking sounds can also be heard by nearby players)
+- Simple Voice Chat
+- Stoneworks
+- Tax Free Levels (Makes every level require the same amount of xp)
+- Waystones Teleport Pets
 ## Performance
-- *Create: Nowheel*
-- *Lithium (Optimizes game logic)*
-- *Entity Culling (Only render entities actually visible to you. Prevents off-screen mob farms & such from lagging your game)*
-- *FerriteCore (Optimizes memory usage)*
-- *ModernFix (General bugfixes & performance optimizations)*
-- *Sodium (Optimizes graphics)*
-  - *Iris (For shader support)*
+- All The Leaks
+- Despawn Tweaks
+- Fast Paintings
+- FerriteCore (Optimizes memory usage)
+- GPU Memory Leak Fix
+- Leaky
+- Lithium (Optimizes game logic)
+- Noisium
+- Recipe Essentials
+- Sable Chunk Guard
+- Sable AABB Fix Enhanced
+- Veil
+## Compatibility
+- Accessories Compat Layer (Compatibility between Accessories & Curios)
+- Create Aeronautics: Portable Engine Liquid Fuel (Compatibility between Create: Aeronautics & Create: Diesel Generators)
+- Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
+- Create Aeronautics: Sable Mass Mod Compatibility (General compatibility for Create: Aeronautics & many other mods)
+- Create: Cats Don't Care (Compatibility between Create & Cats Don't Care)
+- Create: Chain Conveyors Compat (Compatibility between Create [chain conveyors] & Create: Aeronautics)
+- Create: Ferronautics (Compatibility between Create: Aeronautics & Create: Steam 'n' Rails)
+- Create: Regions Unexplored Compat (Compatibility between Create & Regions Unexplored)
+- Create: Slice & Dice (Compatibility between Create & Farmer's Delight)
+- Every Compat (Stone Zone) (Compatibility between every modded stone type)
+- Every Compat (Wood Good) (Compatibility between every modded wood type)
+- Farmer's Cutting: Regions Unexplored (Compatibility between Farmer's Delight & Regions Unexplored)
+- FTB Chunks: Sable Aerospace (Compatibility between FTBChunks & Create: Aeronautics)
+- Rechiseled: Chipped (Compatibility between Rechiseled & Chipped)
+- Rechiseled: Create (Compatibility between Rechiseled & Create)
+- Seasonal Integration (General compatibility for Serene Seasons)
+- Vanilla Backport Compat (Compatibility between Vanilla Backport & William Wyther's Expanded Ecosystem)
+- Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 ## Dependencies
-- *Architectuary API (Dependency for FTBChunks)*
+- Architectuary API (Dependency for FTBChunks)
 - Athena (Dependency for Chipped)
+- ~~BaguetteLib (Dependency for ???)~~
+- Bagus Lib (Dependency for EnchantWithMob)
 - Balm (Dependency for Waystones)
 - Better Library (Dependency for Underground Village, Stoneholm)
+- Blueprint (Dependency for Gallery & Personality)
+- Bookshelf (Dependency for Attribute Fix)
 - Cable Facades (Dependency for Create Aeronautics: Covers)
+- ~~Chunk Activity Tracker (Dependency for ???)~~
 - Cloth Config API (Dependency for Barched)
+- Citadel (Dependency for Alex's Mobs)
 - CodeChicken Lib (Dependency for all Project Red mods)
+- Collective (Dependency for Dismount Entity)
+- ~~Configurable (dependency for ???)~~
+- Cupboard (Dependency for Gpu Memory Leak Fix, Leaky Mod, LootIntegrations, Recipe Essentials, Smooth Chunk & Structure Essentials)
 - Curious API (Dependency for Occultism)
-- CraftTweaker (Dependeny for modifying recipes)
 - Create: Dragons Plus (Dependency for Create: Enchantment Industry)
 - Cristel Lib (Dependency for William Wyther's Expaned Ecosphere)
+- ~~Forgeified Fabric API (Dependency for ???)~~
+  - ~~FKFR~~
 - Fusion - Connected Textures (Dependency for Rechiseled)
-- *FTB Library (Dependency for FTBChunks)*
-- *FTB Teams (Dependency for FTBChunks)*
-- *Fzzy Config (Dependency for EMI Loot)*
+- FTB Library (Dependency for FTBChunks)
+- FTB Teams (Dependency for FTBChunks)
 - GeckoLib (Dependency for Occultism)
 - GlitchCore (Dependency for Serene Seasons)
+- ~~Iceberg (Dependency for ???)~~
+- ~~IChunUtil~~
 - Kotlin For Forge (Dependency for Farmer's Delight)
 - Lithostitched (Dependency for Tectonic)
+- Mob Player Animator (Dependency for Better Mob Combat)
 - Modonomicon (Dependency for Occultism)
+- Moonlight (Dependency for Grounded)
+- More Axolotl Variants API (Dependency for More Axolotl Variants)
+- Omega Config Architeectuary (Dependency for Mo' Structures)
+- owo (Dependency for Accessories)
 - Platform (Dependency for Vanilla Backport)
-- playerAnimator (Dependency for Star Worm Equestrian)
-- *Reese's Sodium Options (Dependency for Sodium Options API)*
+- playerAnimator (Dependency for Better Combat, Mob Player Animator & Star Worm Equestrian)
+- PrickleMC (Dependency for Attribute Fix)
+- ~~Prism (Dependency for ???)~~
+- PuzzlesLib (Depenency for Cut Through, Diagonal Fences, Diagonal Walls, Diagonal Windows, Dyed Flames, Easy Anvils, Easy Magic, Illager Invasion & Stoneworks)
 - Resourceful Lib (Dependency for Chipped)
+- Rhino (Dependency for KubeJS)
 - Sable (Dependency for Create: Aeronautics)
-- *Searchables (Dependency for Controlling)*
-- Silent Lib (Dependency for Silent Gear)
+- Sinytra Connector (Dependency for various optional mods)
+  - Connector Extras
 - SmartBrainLib (Dependency for Occultism)
-- *Sodium Dynamic Lights (Dependency for Create Sable Dynamic Lights)*
-- *Sodium Options API (Dependency for Create Sable Dynamic Lights)*
 - Sophisticated Core (Dependency for Sophisticated Backpacks & Sophisticated Storage)
 - SuperMartijn642's Config Lib (Dependency for Rechiseled)
 - SuperMartijn642's Core Lib (Dependency for Rechiseled)
+- ~~ToadLib (Dependency for ???)~~
 - YUNG's API (Dependency for all YUNG's mods)
-# Changed configs
+
+## OPTIONAL MODS
+Any optional mod mentioned here is found inside the `CLIENTSIDE` folder, and none of these come with the pack by default.<br/>
+**Despite the fact that these mods are optional, the following mods (or an equvalent) are recommended:**
+- Other -> *Better Combat Toggler*
+- Performance -> *Sodium*
+- Player View Tweaks -> *AppleSkin*
+- Recipe Browser -> EMI -> *EMI*
+- Recipe Broswer -> EMI -> *AdvancedLootInfo*
+- Recipe Browser -> EMI -> *TooManyRecipeBrowsers*
+- UI & Menu Tweaks -> *Auth Me*
+- UI & Menu Tweaks -> *Controlling*
+- World Map & Minimap -> *Xaero's Minimap*
+- World Map & Minimap -> *Xaero's World Map*
+
+To quckly add all the recommended mods, they are also made easily available in the `RECOMMENDED_PACKAGE` folder inside the `CLIENTSIDE` folder
+
+**List of all optional mods you can add to the pack:**
+
+- Environment Immersion
+  - Punchy
+    - *Punchy (Adds first-person animations when using your hands)*
+    - *Better Combat Punchy Fix (Allows Punchy to work with Better Combat. **If you're adding Punchy, add this too**)*
+  - Presence Footsteps
+    - *Presence Footsteps (Adds various immersive sounds)*
+    - *Presence Footsteps x Sable (Aeronautics Compat) [a.k.a. pfsable] (Makes Presence Footsteps compatible with Create: Aeronautics contraptions. **If you're adding Presence Footsteps, add this too**)*
+  - *Aeronautics Camera Sync (Makes your camera rotate with Create: Aeronautics contraptions)*
+  - *Camera Overhaul (Makes your camera tilt & rotate based on your movement)*
+  - *Distant Thunders (Makes lightning strikes more realistic by delaying the thunder based on distance from the lightning strike)*
+  - *Doppler (Adds the Doppler Effecct to Minecraft)*
+  - *Drip Sounds (Makes dripping water & lava have a dripping sound effect)*
+  - *Explosive Enhancement (Makes explosions more immersive)*
+  - *Fancy World Animations [a.k.a. fwa+] (Adds smooth animations to things like door & gates, as well as many other things)*
+  - *Immersive Lanterns (Holding a lantern now actually looks like what you'd expect)*
+  - *Particle Rain (Improves how rain looks, adds other various weather effects, makes it fall at an angle to simulate wind)*
+  - *Particular Reforged [a.k.a. particular] (Adds various ambient particle effects to the environment)*
+  - *Rainbows (Adds rainbows)*
+  - *Sound Physics Perfected (Uses ray traced audio)*
+  - *Wavify (adds ambient waves to coeans & rivers)*
+- Other
+  - *Better Combat Toggler (Allows toggling Better Combat on or off)*
+  - *Female Gender Mod (Makes your character gendered)*
+- Performance & Shaders
+  - Sodium
+    - *Reese's Sodium Options (Better UI for changing Sodium's video settings. **Requires Sodium**)*
+    - *Sodium*
+    - *Sodium Options API (**Requires Reese's Sodium Options**)*
+    - *Sodium Shadowy Path Blocks (**Requires Sodium**)*
+  - Iris
+    - *Colorwheel (**If you're adding Iris, add this too**)*
+    - *Colorwheel Patcher (**If you're adding Colorwheel, add this too**)*
+    - *Euphoria Patcher (**If you're adding Iris, add this too**)*
+    - *Iris (Allows you to have shaders)*
+    - *Iris Veil Compat [a.k.a. irisveil] (**If you're adding Iris, add this too**)*
+  - *BadOptimizations*
+  - *BetterBiomeBlend*
+  - *CreateBetterFps (**Requires Sodium & Iris**)*
+  - *Entity Culling*
+  - *ModernFix*
+  - *Create: Nowheel [a.k.a. nowheel] (**Requires Entity Culling**)*
+  - *Particle Core*
+  - *Spark*
+- Player View Tweaks
+  - Jade
+    - *Jade (Gives you info about what you're looking at)*
+    - *Jade Addons (Makes Jade give you mod-specific info when looking at things from various mods. **Requires Jade**)*
+    - *Jade Modded Entities (Makes Jade display extra entity information from other mods. **Requires Jade**)*
+    - *jadeownerfix (Fixes Jade displaying a pet's owner as "???" when the player is offline. **Requires Jade**)*
+    - *Jade Sable Compat [a.k.a. salbejade] (Makes Jade display Create: Aeronautics physics properties)*
+  - Shoulder Surfing
+    - *Shoulder Surfing Reloaded (Lets you customize your 3rd person view)*
+    - *Sable Shoulder Surfing Compat (Makes Shoulder Surfing work with Create: Aeronautics. **If you're adding Shoulder Surfing, add this too**)*
+  - Toast Control
+    - *Placebo (Dependency for Toast Control)*
+    - *Toast Control (Allows you to customize or disable toast messages like achivements & recipe book unlocks. **Requires Placebo**)*
+  - *AppleSkin (Displays how much health, food & saturations any food item will give you)*
+  - *Better F1 (Adds another F1 state where HUD elements are hidden but held items are shown)*
+  - *Boat Item View [a.k.a. boatiview] ()*
+  - *ClickThrough Plus (Makes right-clicking a sign or an item frame on a chest open the chest instead)*
+  - *Fix Horizontal Camera Lag [a.k.a. eg-fix-horizontal-camera-lag] (Eliminates horizontal camera lag when riding something)*
+  - *Leave My Bars Alone (Prevents your food & xp bar from being hidden when riding various mobs)*
+  - *Not Enough Animations (Makes various first-person animations appear in third-person & for other players)*
+  - *Overflowing Bars (Makes HUD bars not overflow into multiple lines)*
+  - *SeasonHud (Displays the current season)*
+  - *Smart Cape Renderer (Hides capes when wearing a backpack from Sophisticated Backpacks)*
+  - *Seramic's Smooth F5 [a.k.a. smooth_f5] (Adds an animation when toggling F5 modes)*
+  - *Wavey Capes (Give player capes physics)
+- Recipe Browser
+  - *EMI (An in-game recipe browser find out how to creaft things)*
+  - *AdvancedLootInfo (Displays loot info in EMI. **If you're adding EMI, add this too**)*
+  - *EMI++ [a.k.a. emixx] (Groups certain items together in EMI. **Requires EMI**)*
+  - *Extra Mod Integrations (Makes a few mods work with EMI that normally doesn't. **If you're adding EMI, add this too**)*
+  - *Smithing Template Viewer (Allows you to view how smithing templates look on your armor in EMI. **Requires EMI**)*
+  - *TooManyRecipeViewers (Allows mods that rely on JEI to work with EMI. **If you're adding EMI, add this too**)*
+- Resource Pack Mod Compatibility
+  - Transparent
+    - *Ash API (Dependency for Transparent)*
+    - *Transparent (**Requires Ash API**)*
+  - *[EMF] Entity Model Features (**Requires Entity Texture Features**)*
+  - Entity Player Compat*
+  - *[ETF] Entity Texture Features*
+  - *FA: Player Extension Compat [a.k.a. fape_compat] (**Requires Entity Model Features**)*
+  - *ImmediatelyFast*
+  - *Modefite - Item Definition Backport (Don't know if this one is needed, not in the pack currently)*
+  - *Polytone*
+- UI & Menu Tweaks
+  - Invventory Profiles Next
+    - *Inventory Profiles Next (Adds variious quality-of-life features for organizing your inventory- **Requires liblPN**)*
+    - *InvTweaks Emu for IPN (Add-on for Inventory Profiles Next that adds various shortcuts for quickly managing your inventory. **Requires Inventory Profiles Next**)*
+    - *liblPN (Library dependency for Inventory Profiles Next)*
+  - Mouse Tweaks
+    - *More Mouse Tweaks (Adds more shortcuts to Mouse Tweaks. **Requires Mouse Tweaks**)*
+    - *Mouse Tweaks (Adds mouse shortcuts for inventory management)*
+    - *MouseTweaaks x Accessories Fix (Disables scrolling to take out / inserts items when in a GUI with a scrollbar. **If you're adding Mouse Tweaks, add this too**)*
+  - Auth Me
+    - *Auth Me (Allows you to re-log in-game whenever you get an "Invalid Session" error. **Requires Resourceful Config**)*
+    - *Resourceful Config (Dependency for Auth Me)*
+  - *Better Modlist (Adds filtering & tagging of mods in the mod list)*
+  - *Client Crafting (makes crafting smoother & faster by eliminating server delay)*
+  - *Connectivity (Fixes various server connection issues)*
+  - *Controlling (Makes the keybinds menu searchable)*
+  - *Create Cursor Fix (Fixes cursor desync in some draggable Create UIs on some Linux distros)*
+  - *Ding (plays a "ding"-sound whenever a long load finishes)*
+  - *Enchantment Descriptions [a.k.a. enchdesc] (Adds enchantment descriptions in the tooltip when hovering an enchanted item)*
+  - *Fabric Tabs (Changes NeoForge's creative tab scroll buttons to those used by Fabric)*
+  - *Keymap (Replaces the controls config with a revamped keymapping UI)*
+  - *Minecraft Cursor / Cursors Extended (Replaces your system cursor with a unique Minecraft-themed one, can be further customized with resource packs)*
+  - *ModListMemory (Allows sorting the mod list by recently viewed mods. **Requires Beter Modlist**)*
+  - *No Resource Pack Warnings (Disables warnings for outdated resource/data packs)*
+  - *Packed Packs (Allows packing resource packs into resource pack packs)*
+  - *Pick Up Notifier (Tells you what you've picked up recently)*
+  - *Reliable Recipes (Removes the recipe book)*
+  - *Reliable Recount (Changes item count numbers to match the style of those from the Create mod)*
+  - *Searchables (Allows advanced filtering of searches)*
+  - *Sophisticated Inventory Interations (Adds the intentory sorting options from Sophisticated Storage to vanilla storage containers)*
+  - *Sorted Enchantments (Sorts the list of enchantments in an item's tooltip in alphabetical order)*
+  - *Yeetus Experimentus (Disables the "experimental features" popup)*
+  - *Yukami's Sophisticated Backpack Tab [a.k.a. yukamibackpacktab] (Allows you to access your backpack from an inventory tab)*
+- World Enhancements
+  - LambDynamicLights
+    - *Create/Sable LambDynamicLights (Makes LambDynamicLights compatible with Create contraptions. **If you're adding LambDynamicLights, add this too**)*
+    - *LambDynamicLights (Makes dropped/held illuminating items & burning entities emit light)*
+  - *Aeronautics Propeller Blur (Adds a blurring effect to Create: Aeronautics propeller when they spin really fast)*
+  - *Ambient Environment (Adds slight noise to biome colors)*
+  - *Atmospheric Rain (Backports the rain effects from the Chase The Skies update)*
+  - *Auroras (Adds occasional auroras to the night sky)*
+  - *cat_jam (Makes cats jam to the music of a nearby jukebox)*
+  - *Particle Interactions [a.k.a. eg-particle-interactions] (Adds particles to a bunch of interactions that doesn't have any)*
+  - *Elytra Trail (Adds a particle trails after players flying with an elytra)*
+  - *Entity Pin Cushions (Makes arrows stick to other mobs as wll, not just players)*
+  - *Extreme Sound Muffler (Selectively mute certain sounds)*
+  - *LambdaBetterGrass (Adds OptiFine's fancy grass/snow textures to the game, makes some non-full blocks (like fences) respect environmental conditions)*
+  - *Make Bubbles Pop (Makes bubble particles pop when touched, and makes them behave more realistically)*
+  - *Model Gap Fix [a.k.a. modelfix] (Fixes a bug where the surfaces of some 3d models have slight gaps between them when viewed from specific angles)*
+  - *Particle Effects (Adds custom particles to players & mobs with potion effects)*
+  - *Particle Tweaks (Makes particles naturally enter & leave when they spawn & despawn, instead of instantly appearing & disappearing)*
+  - *Raise Sound Limit Simplified [a.k.a. rsls] (Increases the number of sounds allowed to play at the same time)*
+  - *Countered's Smooth Steps [a.k.a. smooth_steps] (Makes walking up slabs & stairs mre smooth)*
+  - *Subtle Effects (Adds various subtle particle effects)*
+  - *Visuality (Adds various particles to mob interactions)*
+
+- World Map & Minimap
+  - *Compass to Map: Xaero's Minimap & Explorer's Compass & Nature's Compass Addon [a.k.a. c2mx] (Auto-register structures from Explorer's Compass / Nature's Compass as Xaero's Minimap waypoints. **Requires Xaero's Minimap and/or Xaero's World Map**)*
+  - *FTB Chunks x Xaero's Compat [a.k.a. ftbxaerocompat] (Make you able to view & claim chunks with FTB Chunks, directly in Xaero's map. **Requires Xaero's Minimap and/or Xaero's World Map**)*
+  - *Sable x Xaero Bridge (Makes Create: Aeronautics sub-levels visible on Xaero's World & Minimap. **Requires Xaero's Minimap and/or Xaero's World Map**)*
+  - *Xaero's Minimap (Adds an in-game minimap for your world)*
+  - *Xaero Train Map (Shows Create trains on Xaero's World Map. **Requires Xaero's World Map**)*
+  - *Xaero's World Map (Adds an in-game fullscreen world map for your world)*
+
+# Changed configs & Recipes
+- Alex's Mobs
+  - Crimson Mosquitoes no longer spawn
+  - Seagulls no longer steal your food
 - CB Multipart
   - Every non-slab & non-stairs block from Rechiseled has been added as valid sliceable blocks
 - Create
   - Added a recipe to crush infested stone into experience nuggets
+- Entombed
+  - The obituary given upon death is removed from your inventory when you re-claim your gravestone
 - FTBChunks
   - Claims do not prevent other players from destroying blocks. The server runs on mutual trust, and they're for marking where your base is
   - If multiple players are in a party, the claim & force-load limit is multiplied by the number of players
   - Number of force-loaded chunks per player reduced to 10
   - Force loaded chunks now always chunkload, even when offline
-- Gravestone
-  - The obituary given upon death is removed from your inventory when you re-claim your gravestone
+- Ice & Fire: Community Edition
+  - Disabled Sirens
+- Load My F***ing Tags
+  - Disabled in-game message when it finds broken tags
 - Nutritional Balance:
   - Removed any negative effect from bad nutrition
   - Good nutrition threshold moved slightly up

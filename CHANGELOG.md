@@ -1,18 +1,306 @@
-# v2.0.0
-*This version is still in development & will be updated as changes are made*
+# v2.0.0: The optional update (+ some content)
+In this version, all client-side only mods have been moved out of the pack, into their own `CLIENTSIDE` folder, as well as many new optional additions. CraftTweaker was also replaced with KubeJS, and some content changes were done.
 ## Mod changes
-- Added AdvancedLootInfo
-- Added Auth Me
+- Added Accessories
+  - Added Accessories Compat Layer
+  - Added owo
+- Added AdvancedLootInfo (optional)
+- Added Aeronautics No Leaf Collision
+- Added **Alex's Mobs**
+  - Added Citadel
+- Added All The Leaks
+- Added Almost Unified
+- Added Ambient Environment (optional)
+- Added Amplified Nether
+- Added Animal Feeding Trough
+- Added ATI Structures
+- Added ATI Structures Vanilla
+- Added Attribute Fix
+  - Added Bookshelf
+  - Added PrickleMC
+- Added Auroras (optional)
+- Added Auth Me (optional)
+  - Added Resourceful Config (optional)
+- Added BadOptimizations
+- Added ~~BaguetteLib~~
+- Added Bedspreads
+- Added BetterBiomeBlend (optional)
+- **Added Better Combat**
+  - Added Better Combat Particle Addition
+  - Added Better Combat Toggler (optional)
+  - **Addeed Better Mob Combaat**
+- Added Better Days
+- Added Better F1 (optional)
+- Added Better Modlist (optional)
+  - Added ModListMemory (optional)
+- Added Biome Replacer
+- Added Blueprint
+  - Added Gallery
+  - Added Personality
+- Added Boat Item View (optional)
+- Added cat_jam (optional)
+- Added Camera Overhaul (optional)
+- Added Cats Don't Care
+  - Added Create: Cats Don't Care
+- ~~Added Chunk Activity Tracker~~
+- Added Clickthrough Plus (optional)
+- Added Client Crafting (optional)
+- Added CliffTree
+- Added Clumps
+- Added Colorwheel Patcher (optional)
+- Added Combat Roll
+- Added Companion
+- Added Compass to Map: Xaero's Minimap & Explorer's Compass & Nature's Compass Addon (optional)
+- ~~Added Configurable~~
+- Added Connectivity (optional)
+- Added Connector
+  - Added Connector Extras
+- Added Continents
+- Added Crafting Station
+- Added Crafting Tweaks
+- Added CreateBetterFps (optional)
+- Added Create Aeronautics: Portable Engine Liquid Fuel
+- Added Create Aeronautics: Sable Mass Mod Compatibility
+- Added Create Cursor Fix
+- Added Create Encased
+- Added Create Extra Casing
+- Added Create Liquid Fuel
+- Added Create More: Parallel Pipes
+- Added Create: Bells & Whistles
+- Added Create: Bits 'n' Bobs
+- Added Create: Colorful Catalysts
+- Added Create: Deco
+- Added Create: Design n' Decor
+- Added Create: Diesel Generators
+  - Added Oil Canister
+- Added Create: Dreams n' Desires
+- Added Create: Interiors
+- Added Create: Pattern Schematics
+- Added Create: Regions Unexplored Compat
+- Added Crops Love Rain
+- Added Cupboard
+- Added Cut Through
+- Added Despawn Tweaks
+- Added Diagonal Fences
+- Added Diagonal Walls
+- Added Diagonal Windows
+- Added Ding (optional)
+- Added Dismount Entity
+  - Added Collective
+- Added Distant Thunders (optional)
+- Added Doppler (optional)
+- Added Drip Sounds (optional)
+- Added Dungeon Dimensions: Nether
+- Added DyedFlames
+- Added Easy Anvils
+- Added Easy Magic
+- Added Elytra Trail (optional)
+- Added EnchantWithMob
+  - Added Bagus Lib
+- Added Enchantment Descriptions (optional)
+- Added Entity Model Features (optional)
+- Added Entity Pin Cushions (optional)
+- Added Entity Texture Features (optional)
+- Added Entity Player Compat (optional)
+- Added Entombed
+- Added Epic Structures: Dungeons
+- Added Epic Structures: Igloo
+- Added ~~Epic Structures: Witch Huts~~
+- Added EuphoriaPatcher (optional)
+- Added Every Compat (Stone Zone)
+- Added Every Compat (Wood Good)
+- Added Expanded Delight
+- Added Explorers Compass
+- Added Explosive Enhancement (optional)
+- Added Exposure
+- Added Extreme Sound Muffler (optional)
+- Added Fabric Tabs (optional)
+- Added Fancy World Animations (optional)
+- Added Farmer's Cutting: Regions Unexplored
+- Added Fast Paintings
+- Added FA: Player Extension Compat (optional)
+- Added Feature Recycler
+- Added Fix Horizsontal Camera Lag (optional)
+- ~~Added Forgeified Fabric API~~
+  - ~~Added FKFR~~
+- Added FTB Chunks x Xaero's Compat (optional)
+- Added GPU Memory Leak Fix
+- Added Grim Kingdoms: Lost Structures & Ruins
+- Added Grounded
+  - Added Moonlight
+- ~~Added Iceberg~~
+- **Added Ice & Fire: Community Edition**
+- ~~Added IChunUtil~~
+- Added Illager Invasion
+- Added ImmediatelyFast (optional)
+- Added Immersive Lanterns (otpional)
+- Added Immersive Paintings
+- Added Inventory Profiles Next (optional)
+  - Added InvTweaks EMU for IPN (optional)
+  - Added liblPN (optional)
+- Added Jade Addons (optional)
+- Added Jade Modded Entities (optional)
+- Added Jade Owner Fix (optional)
+- Added Jade Sable Compat (optional)
+- Added Jump Over Fences
+- Added Jupiter
+- Added KleeSlabs
 - Added KubeJS
+  - Added KubeJSable
   - Added KubeJS Create
+  - Added KubeJS Diesel Generators
   - Added LootJS
   - Added MoreJS
   - Added ProbeJS
   - Added Rhino
+- Added LambDynamicLights (optional)
+  - Added Create/Sable LambDynamicLights (optional)
+- Added Leaky
+- Added Leave My Bars Alone (optional)
+- Added Load My F***ing Tags
+- Added LootIntegrations
+  - Added LootIntegrations ATI
+  - Added LootIntegrations Awesome
+  - Added LootIntegrations Better Archeology
+  - Added LootIntegrations DNT
+  - Added LootIntegrations Ice & Fire
+  - Added LootIntegrations Mo' Structures
+  - Added LootIntegrations Underground Villages
+  - Added LootIntegrations Vanilla
+- Added Macaw's Bridges
+- Added Macaw's Doors
+- Added Macaw's Dences & Walls
+- Added Macaw's Furniture
+- Added Macaw's Holidays
+- Added Macaw's Lights & Lamps
+- Added Macaw's Paintings
+- Added Macaw's Paths & Pavings
+- Added Macaw's Roofs
+- Added Macaw's Stairs & Balconies
+- Added Macaw's Trapdoors
+- Added Macaw's Windows
+- Added Make Bubbles Pop (optional)
+- Added Miku Plushie
+- Added Minecraft Cursor (optional)
+- Added Mob Player Animator
+- Added Model Gap Fix (optional)
+- Added ModListMemory (optional)
+- Added More Axolotl Variants
+  - Added More Axolotl Variants API
+- Added More Mouse Tweaks (optional)
+- Added MouseTweaaks x Accessories Fix (optional)
+- Added Mo' Structures
+- Added Nature's Compass
+- Added Nether Portal Fix
+- Added Noisium
+- Added Not Enough Animations (optional)
+- Added No Resource Pack Warnings (optional)
+- Added Omega Config Architectuary
+- Added Overflowing Bars (optional)
+- Added Packed Packs (optional)
+- Added Packet Fixer
+- Added Particle Core (optional)
+- Added Particle Effects (optional)
+- Added Particle Interactions (optional)
+- Added Particle Rain (optional)
+- Added Particle Tweaks (optional)
+- Added Particular Reforged (optional)
+- Added Pick Up Notified (optional)
+- Added Ping Wheel
+- Added Polymorph
+- Added Polytone (optional)
+- Added Presence Footsteps (optional)
+  - Added Presence Footsteps x Sable (Aeronautics Compat) (optional)
+- Added Pridecraft
+- ~~Added Prism~~
+- Added Punchy! (optional)
+  - Added Better Combat Punchy Fix (optional)
+- Added PuzzlesLib
+- Added Rainbows (optional)
+- Added Recipe Essentials
+- **Added Regions Unexplored**
+- Added Reliable Recipes (optional)
+- Added Reliable Reciount (optional)
+- Added Sable AABB Fix Enhanced
+- Added Sable Chunk Guard
+- Added Sable Pathfinder
+- Added Sable x Xaero Bridge (optional)
+- Added Seasonal Integration
+- Added Separated Leaves
+- Added Shield Sounds Backport
+- Added Smooth F5 (optional)
+- Added Smooth Steps (optional)
+- Added Sound Physics Perfected (optional)
+- Added Stoneworks
+- Added StructureOverlapless
+- Added Subtle Effects (optional)
+- Added Tax Free Levels
+- **Added Terrablender**
+- ~~Added ToadLib~~
+- Added Toast Control (optional)
+  - Added Placebo (optional)
+- Added TooManyRecipeViewers (optional)
+- Added Transparent (optional)
+  - Added Ash API (optional)
+- Added Veil
+- Added Visuality
+- Added Wavify
+- Added Waystones Teleport Pets
+- Modified Aeronautics Camera Sync (Made optional, changed version 1.2 -> 1.3.1)
+- Modified AppleSkin (Made optional)
+- Modified Atmospheric Rain Backport (Made optional)
+- Modified Cable Facades (Changed version 2.0.2 -> 2.1.0)
+- Modified Climbable Ropes (Changed version 2.0.0 -> 2.0.1)
+- Modified Colorwheel (Changed version 1.2.7 -> 1.2.8)
+- Modified Controlling (Made optional)
+  - Modified Searchables (Made optional)
+- Modified Create Aeronautics: Automated Logistics (Changed version 0.3.0 -> 0.4.0)
+- Modified Create Deep Seas (Changed version 2.0.3 -> 2.1.3)
+- Modified Create Nowheel (Made optional)
+- Modified Create: Connected (Changed version 1.1.16 -> 1.2.0)
+- Modified Create: Ferronautics (Changed version 1.0.1 -> 1.1.0)
+- Modified Create: Marketplace (Changed version 0.2.0 -> 0.2.2)
+- Modified CristelLib (Changed version 3.0.3 -> 3.1.0)
+- Modified EMI (Made optional)
+  - Modified EMI++ (Made optional, changed version 1.2.3 -> 2.1.3)
+  - Modified Extra Mod Integrations (Made optional)
+- Modified Entity Culling (Made optional)
+- Modified Jade (Made optional)
+- Modified Lithostitched (Changed version 1.7.7 -> 1.7.9)
+- Modified Modefite - Item Definition Backport (Made optional)
+- Modified ModernFix (Made optional, changed version -> 5.27.8 -> 5.27.11)
+- Modified Mouse Tweaks (Made optional)
+- Modified Sodium (Made optional)
+  - Modified Iris (Made optional)
+    - Modified Colorwheel (Made optional)
+    - Modified Iris Veil Compat (Made optional)
+  - Modified Sodium Options API (Made optional)
+    - Modified Reese's Sodium Options (Made optional)
+- Modified Sophisticated Storage (Changed version 1.5.54.1762 -> 1.5.55.1772)
+  - Modified Sophisticated Core (Changed version 1.4.43.1912 -> 1.4.44.1923)
+- Modified Xaero's Minimap (Made optional)
+- Modified Xaero's World Map (Made optional)
 - Removed CraftTweaker (Replaced by KubeJS)
+- Removed Critters & Companions (Replaced by Alex's Mobs)
+- Removed EMI Enchanting (Obsolete)
 - Removed EMI Loot (Replaced by AdvancedLootInfo)
+  - Removed Fzzy Config
+- Removed EMI Ores (Does not work on server without being server-side, which would require EMI ores client-side, therefore removed)
+- Removed EMI Professions (Obsolete)
+- Removed Gravestone Mod (Replaced by Entombed)
+- Removed Incendium (Replaced by Amplified Nether)
+- Removed Inventory Tweaks Refoxed (Replaced by Inventory Profiles Next)
+- Removed JEI (Replaced with TooManyRecipeViewers)
+- Removed JourneyMap (Replaced by Xaero's Minimap & Xaero's World Map)
+  - Removed JourneyMap Integration
 - Removed Smithing Tweaks (Replaced by custom coded template system in KubeJS)
+- Removed Create Sable Dynamic lights (Replaced by Create/Sable LambDynamicLights)
+  - Removed Sodium Dynamic Lights (Replaced by LambDynamicLights)
+- **Removed William Wythers' Expanded Ecosphere** (Replaced with **Regions Unexplored**)
 ## Config & Recipe changes
+- Alex's Mobs
+  - Crimson Mosquitoes no longer spawn
+  - Seagulls no longer steal your food
 - Construction Wands
   - Removed all non-infinite construction wands
   - Made the Infinity Wand significantly easier to craft
@@ -122,6 +410,7 @@
 - Changed JourneyMap Integration to be disabled
 - Chane
 - Removed Silent Gear (Semi-replaced by Create: Enchantment Industry)
+  - Removed SilentLib
 - Removed Iris & Oculus Flywheel Compat (Replaced by Colorwheel)
 ## Config changes
 - Create: Added a recipe to crush infested stone into experience nuggets

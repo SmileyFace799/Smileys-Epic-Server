@@ -336,6 +336,19 @@ chunk_rebuild_scheduler = "culling"
 				falling_propagule = true
 				falling_layer = true
 
+			[light_sources.settings.entities.miku-plushie]
+				gumi_plush = true
+				miku_plush = true
+				meiko_plush = true
+				teto_plush = true
+				len_plush = true
+				luka_plush = true
+				konoha_plush = true
+				akita_neru_plush = true
+				aiko_plush = true
+				kaito_plush = true
+				rin_plush = true
+
 			[light_sources.settings.entities.bits_n_bobs]
 				inert_stationary_contraption = true
 
@@ -400,6 +413,9 @@ chunk_rebuild_scheduler = "culling"
 
 			[light_sources.settings.entities.sophisticatedbackpacks]
 				everlasting_backpack_item = true
+
+			[light_sources.settings.entities.createdieselgenerators]
+				chemical_sprayer_projectile = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
