@@ -339,6 +339,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - **Removed William Wythers' Expanded Ecosphere** (Replaced with **Regions Unexplored**)
 ## Config & Recipe changes
 - Alex's Mobs
+  - Bone serpents are neutral instead of hostile
   - Crimson Mosquitoes no longer spawn
   - Seagulls no longer steal your food
 - Construction Wands
@@ -348,6 +349,9 @@ In this version, all client-side only mods have been moved out of the pack, into
   - Changed the Blackstone recipe to use black dyeing instead of haunting
   - Haunting Cobblestone now yields Infested Cobblestone instead of Blackstone
   - All infested blocks can now be crushed for a 50% Nugget of Experience yield, alongside their regular non-infested drops (non-infested variants that aren't normally crushable have no extra drops for their infested variant)
+- Ice & Fire: Community Edition
+  - Death worms no longer spawn
+  - Siren Islands no longer spawn
 - KubeJS
   - Removed items are now properly removed from all loot, and should be fully unobtainable
   - Added smithing templates for all sub-netherite tiers
