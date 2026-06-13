@@ -81,6 +81,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Cupboard
 - Added Cut Through
 - Added Despawn Tweaks
+  - Added TxniLib
 - Added Diagonal Fences
 - Added Diagonal Walls
 - Added Diagonal Windows
@@ -114,6 +115,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Explosive Enhancement (optional)
 - Added Exposure
 - Added Extreme Sound Muffler (optional)
+  - Added Synthesia: Sound Visualizer
 - Added Fabric Tabs (optional)
 - Added Fancy World Animations (optional)
 - Added Farmer's Cutting: Regions Unexplored
@@ -130,6 +132,7 @@ In this version, all client-side only mods have been moved out of the pack, into
   - Added Moonlight
 - ~~Added Iceberg~~
 - **Added Ice & Fire: Community Edition**
+  - Added Uranus
 - ~~Added IChunUtil~~
 - Added Illager Invasion
 - Added ImmediatelyFast (optional)
@@ -153,6 +156,7 @@ In this version, all client-side only mods have been moved out of the pack, into
   - Added MoreJS
   - Added ProbeJS
   - Added Rhino
+  - Added WorldJS
 - Added LambDynamicLights (optional)
   - Added Create/Sable LambDynamicLights (optional)
 - Added Leaky
@@ -221,19 +225,38 @@ In this version, all client-side only mods have been moved out of the pack, into
 - **Added Regions Unexplored**
 - Added Reliable Recipes (optional)
 - Added Reliable Reciount (optional)
+- Added Remove Stardust Labs Intro Message
 - Added Sable AABB Fix Enhanced
 - Added Sable Chunk Guard
 - Added Sable Pathfinder
 - Added Sable x Xaero Bridge (optional)
 - Added Seasonal Integration
+- Added Season HUD (optional)
 - Added Separated Leaves
 - Added Shield Sounds Backport
+- Added Smarter Farmers
+- Added Smart Cape Renderer (optional)
+- Added Smithing Template Viewer (optional)
+- Added Smoothchunk
 - Added Smooth F5 (optional)
 - Added Smooth Steps (optional)
+- Added Snow Under Trees
+- Added Sodium Shadowy Paths (optional)
+- Added Sodium Options Mod API (optional)
+- Added Sophisticated Tags
+- Added Sophisticated Inventory Interactions
+- Added Sophisticated Storage Create Integration
+- Added Sorted Enchantments (optional)
 - Added Sound Physics Perfected (optional)
+- Added Spark (optional)
+- Added Sparse Structures
+- **Added Spelunkery**
+- Added Stick It!
 - Added Stoneworks
 - Added StructureOverlapless
+- Added Structure Essentials
 - Added Subtle Effects (optional)
+- Added Supplementaries
 - Added Tax Free Levels
 - **Added Terrablender**
 - ~~Added ToadLib~~
@@ -242,10 +265,21 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added TooManyRecipeViewers (optional)
 - Added Transparent (optional)
   - Added Ash API (optional)
+- Added Twemoji
 - Added Veil
+- Added Verdant
+- Added Visiting Villagers
 - Added Visuality
+- Added Voxy
+- Added Wandering Pets
+- Added Wavey Capes (optional)
 - Added Wavify
 - Added Waystones Teleport Pets
+- Added Would
+- Added Xaero Train Map
+- Added Yeetus Experimentus (optional)
+- ~~Added YetAnotherConfigLib~~
+- Added Yukami's Sophisticated Backpack Tab (optional)
 - Modified Aeronautics Camera Sync (Made optional, changed version 1.2 -> 1.3.1)
 - Modified AppleSkin (Made optional)
 - Modified Atmospheric Rain Backport (Made optional)
@@ -270,14 +304,19 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Modified Modefite - Item Definition Backport (Made optional)
 - Modified ModernFix (Made optional, changed version -> 5.27.8 -> 5.27.11)
 - Modified Mouse Tweaks (Made optional)
+- Modified Simple Voice Chat (Changed version 2.6.17 -> 2.6.18)
 - Modified Sodium (Made optional)
   - Modified Iris (Made optional)
     - Modified Colorwheel (Made optional)
     - Modified Iris Veil Compat (Made optional)
   - Modified Sodium Options API (Made optional)
     - Modified Reese's Sodium Options (Made optional)
-- Modified Sophisticated Storage (Changed version 1.5.54.1762 -> 1.5.55.1772)
-  - Modified Sophisticated Core (Changed version 1.4.43.1912 -> 1.4.44.1923)
+- Modified Sophisticated Core (Changed version 1.4.43.1912 -> 1.4.44.1923)
+  - Modified Sophisticated Backpacks (Changed version 3.25.46.1746 -> 3.25.51.1801)
+  - Modified Sophisticated Storage (Changed version 1.5.54.1762 -> 1.5.55.1772)
+- Modified Underground Village, Stoneholm (Changed version 1.5.7 -> 2.0)
+- Modified Waystones (Changed version 21.1.33 -> 21.1.34)
+  . Modified Waystones: Sable (Changed version 1.0.2 -> 1.0.3)
 - Modified Xaero's Minimap (Made optional)
 - Modified Xaero's World Map (Made optional)
 - Removed CraftTweaker (Replaced by KubeJS)
@@ -294,8 +333,9 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Removed JourneyMap (Replaced by Xaero's Minimap & Xaero's World Map)
   - Removed JourneyMap Integration
 - Removed Smithing Tweaks (Replaced by custom coded template system in KubeJS)
-- Removed Create Sable Dynamic lights (Replaced by Create/Sable LambDynamicLights)
-  - Removed Sodium Dynamic Lights (Replaced by LambDynamicLights)
+- Removed Sodium Dynamic Lights (Replaced by LambDynamicLights)
+  - Removed Create Sable Dynamic lights (Replaced by Create/Sable LambDynamicLights)
+- Removed Spawn (Replaced by Alex's Mobs)
 - **Removed William Wythers' Expanded Ecosphere** (Replaced with **Regions Unexplored**)
 ## Config & Recipe changes
 - Alex's Mobs
@@ -404,6 +444,7 @@ In this version, all client-side only mods have been moved out of the pack, into
   - Added Platform
 - Added Xaero's Minimap
 - Added Xaero's World Map
+- Added YDM's Weapon Master (optional)
 - Added YUNG's Better Desert Temples | Dungeons | End Island | Jungle Temples | Mineshafts | Nether Fortresses | Ocean Monuments | Strongholds | Witch Huts | Bridges | Extras
   - Added YUNG's API
 - Changed JourneyMap to be disabled

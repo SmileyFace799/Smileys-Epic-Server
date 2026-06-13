@@ -49,7 +49,6 @@ Mods that are **bold** are significant content mods you probably care about
   - Create: Interiors
   - **Create: Steam 'n' Rails** (Epic trains) [Note: This is using an unofficial port to 1.21.1, since the official mod is still only in 1.20.1]
   - Create: Vibrant Vaults
-- Critters and Companions
 - EnchantWithMob (Adds the Enchanter from Minecraft Dungeons)
 - **Envelope** (Send mail & messages & mail to other players through pigeons)
 - Epic Structures: Dungeons
@@ -71,6 +70,7 @@ Mods that are **bold** are significant content mods you probably care about
   - LootJS (Allows modifying loot & drops on the server)
   - MoreJS
   - ProbeJS
+  - WorldJS
 - Macaw's Bridges
 - Macaw's Doors
 - Macaw's Dences & Walls
@@ -97,12 +97,14 @@ Mods that are **bold** are significant content mods you probably care about
 - **Serene Seasons**
 - Sophisticated Backpacks
 - Sophisticated Storage (Adds bigger chests & barrels)
-- Spawn
 - Star Worm Equestrian
   - Star Worm Plus
+- Supplementaries
 - Tiny Dragons
 - Vanilla Backport
+- Verdant (Adds extra foliage & greenery to the world)
 - **Waystones**
+- Would (Adds more wood types)
 - YUNG's Better Desert Temples
 - YUNG's Better Dungeons
 - YUNG's Better End Island
@@ -121,6 +123,8 @@ Mods that are **bold** are significant content mods you probably care about
 - Dungeon Dimensions: Nether (Adds a few more details to nether biomes)
 - Feature Recycler (Fixes "feature order cycle" error)
 - **Nullscape** (Better end generation)
+- Sparse Structures (Spreads out structures more, prevents the world from being too crowded with modded structures everywhere)
+- **Spelunkery** (Underground overhaul)
 - StructureOverlapless (Prevents multiple structures from generating on top of each other)
 - **Tectonic** (Better terrain generation)
 - **TerraBlender**
@@ -192,8 +196,17 @@ Mods that are **bold** are significant content mods you probably care about
 - Separated Leaves (Leaves now only belong to logs of their wood type)
 - Shield Sounds Backport (Shield blocking sounds can also be heard by nearby players)
 - Simple Voice Chat
+- Smarter Farmers (Makes farmer villagers smarter)
+- Snow Under Trees
+- Sophisticated Tags
+- Stick It! (Allows any items to be placed down in the world)
 - Stoneworks
+- Structure Essentials
 - Tax Free Levels (Makes every level require the same amount of xp)
+- Twemoji (Discord emojis in Minecraft)
+- Visiting Villagers (Villagers will constantly come & go, making villages more alive)
+- Voxy (See beyond the render distance)
+- Wandering Pets (Pets can wander around instead of following you)
 - Waystones Teleport Pets
 ## Performance
 - All The Leaks
@@ -207,6 +220,7 @@ Mods that are **bold** are significant content mods you probably care about
 - Recipe Essentials
 - Sable Chunk Guard
 - Sable AABB Fix Enhanced
+- Smoothchunks
 - Veil
 ## Compatibility
 - Accessories Compat Layer (Compatibility between Accessories & Curios)
@@ -225,6 +239,7 @@ Mods that are **bold** are significant content mods you probably care about
 - Rechiseled: Chipped (Compatibility between Rechiseled & Chipped)
 - Rechiseled: Create (Compatibility between Rechiseled & Create)
 - Seasonal Integration (General compatibility for Serene Seasons)
+- Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
 - Vanilla Backport Compat (Compatibility between Vanilla Backport & William Wyther's Expanded Ecosystem)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 ## Dependencies
@@ -279,6 +294,9 @@ Mods that are **bold** are significant content mods you probably care about
 - SuperMartijn642's Config Lib (Dependency for Rechiseled)
 - SuperMartijn642's Core Lib (Dependency for Rechiseled)
 - ~~ToadLib (Dependency for ???)~~
+- TxniLib (Dependency for Despawn Tweaks)
+- Uranus (Dependency for Ice & Fire: Community Edition)
+- ~~YetAnotherConfigLib (Dependency for ???)~~
 - YUNG's API (Dependency for all YUNG's mods)
 
 ## OPTIONAL MODS
@@ -295,7 +313,7 @@ Any optional mod mentioned here is found inside the `CLIENTSIDE` folder, and non
 - World Map & Minimap -> *Xaero's Minimap*
 - World Map & Minimap -> *Xaero's World Map*
 
-To quckly add all the recommended mods, they are also made easily available in the `RECOMMENDED_PACKAGE` folder inside the `CLIENTSIDE` folder
+To quckly add all the recommended mods, they are also made easily available in the `RECOMMENDED PACKAGE` folder inside the `CLIENTSIDE` folder
 
 **List of all optional mods you can add to the pack:**
 
@@ -367,6 +385,7 @@ To quckly add all the recommended mods, they are also made easily available in t
   - *Smart Cape Renderer (Hides capes when wearing a backpack from Sophisticated Backpacks)*
   - *Seramic's Smooth F5 [a.k.a. smooth_f5] (Adds an animation when toggling F5 modes)*
   - *Wavey Capes (Give player capes physics)
+  - *YDM's Weapon Master [a.k.a. weaponmaster_ydm] (Weapons & tools in your hotbar will be visible on your character)
 - Recipe Browser
   - *EMI (An in-game recipe browser find out how to creaft things)*
   - *AdvancedLootInfo (Displays loot info in EMI. **If you're adding EMI, add this too**)*
@@ -385,6 +404,7 @@ To quckly add all the recommended mods, they are also made easily available in t
   - *ImmediatelyFast*
   - *Modefite - Item Definition Backport (Don't know if this one is needed, not in the pack currently)*
   - *Polytone*
+  - *Sodium Options Mod Compat (**If you're adding [Sodium + Entity Texture Features] or [Sodium + Entity Model Features], add this too**)*
 - UI & Menu Tweaks
   - Invventory Profiles Next
     - *Inventory Profiles Next (Adds variious quality-of-life features for organizing your inventory- **Requires liblPN**)*
@@ -407,14 +427,13 @@ To quckly add all the recommended mods, they are also made easily available in t
   - *Fabric Tabs (Changes NeoForge's creative tab scroll buttons to those used by Fabric)*
   - *Keymap (Replaces the controls config with a revamped keymapping UI)*
   - *Minecraft Cursor / Cursors Extended (Replaces your system cursor with a unique Minecraft-themed one, can be further customized with resource packs)*
-  - *ModListMemory (Allows sorting the mod list by recently viewed mods. **Requires Beter Modlist**)*
+  - *ModListMemory (Allows sorting the mod list by recently viewed mods. **Requires Better Modlist**)*
   - *No Resource Pack Warnings (Disables warnings for outdated resource/data packs)*
   - *Packed Packs (Allows packing resource packs into resource pack packs)*
   - *Pick Up Notifier (Tells you what you've picked up recently)*
   - *Reliable Recipes (Removes the recipe book)*
   - *Reliable Recount (Changes item count numbers to match the style of those from the Create mod)*
   - *Searchables (Allows advanced filtering of searches)*
-  - *Sophisticated Inventory Interations (Adds the intentory sorting options from Sophisticated Storage to vanilla storage containers)*
   - *Sorted Enchantments (Sorts the list of enchantments in an item's tooltip in alphabetical order)*
   - *Yeetus Experimentus (Disables the "experimental features" popup)*
   - *Yukami's Sophisticated Backpack Tab [a.k.a. yukamibackpacktab] (Allows you to access your backpack from an inventory tab)*
@@ -439,6 +458,7 @@ To quckly add all the recommended mods, they are also made easily available in t
   - *Raise Sound Limit Simplified [a.k.a. rsls] (Increases the number of sounds allowed to play at the same time)*
   - *Countered's Smooth Steps [a.k.a. smooth_steps] (Makes walking up slabs & stairs mre smooth)*
   - *Subtle Effects (Adds various subtle particle effects)*
+  - *Synthesia: Sound Visualizer (Allows you to tell where in your world sounds are coming from. **Requires Extreme Sound Muffler**)
   - *Visuality (Adds various particles to mob interactions)*
 
 - World Map & Minimap
@@ -451,6 +471,7 @@ To quckly add all the recommended mods, they are also made easily available in t
 
 # Changed configs & Recipes
 - Alex's Mobs
+  - Bone serpents are neutral instead of hostile
   - Crimson Mosquitoes no longer spawn
   - Seagulls no longer steal your food
 - CB Multipart
@@ -465,7 +486,8 @@ To quckly add all the recommended mods, they are also made easily available in t
   - Number of force-loaded chunks per player reduced to 10
   - Force loaded chunks now always chunkload, even when offline
 - Ice & Fire: Community Edition
-  - Disabled Sirens
+  - Siren island spawn chance changed from 0.5 to 0 (no longer spawns)
+  - Death worm spawn chance changed from 0.033... to 0 (no longer spawns)
 - Load My F***ing Tags
   - Disabled in-game message when it finds broken tags
 - Nutritional Balance:

@@ -67,7 +67,7 @@
     "maxHealth": 100.0
   },
   "deathworm": {
-    "spawnChance": 0.03333333333333333,
+    "spawnChance": 0,
     "targetSearchLength": 48,
     "maxHealth": 10.0,
     "attackDamage": 3.0,
@@ -172,7 +172,7 @@
     "generateHydraCaveChance": 0.5,
     "generateMausoleumChance": 0.5,
     "generatePixieVillageChance": 0.5,
-    "generateSirenIslandChance": 0.5
+    "generateSirenIslandChance": 0
   },
   "misc": {
     "enableDragonSeeker": true,

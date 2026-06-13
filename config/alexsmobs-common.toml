@@ -26,7 +26,7 @@
 	#Whether lava can be bottled with a right click of a glass bottle.
 	lavaBottleEnabled = true
 	#Whether bone serpents are neutral or hostile.
-	neutralBoneSerpents = false
+	neutralBoneSerpents = true
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
 	mimicubeSpawnInEndCity = true
 	#Whether mimicream can be used to duplicate items.
@@ -108,7 +108,7 @@
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
 	voidWormSummonable = true
 	#Whether seagulls should steal food out of players' hotbar slots.
-	seagullStealing = true
+	seagullStealing = false
 	#List of items that seagulls cannot take from players.
 	seagullStealingBlacklist = []
 	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
