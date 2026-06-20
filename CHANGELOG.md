@@ -1,3 +1,10 @@
+# v2.0.1
+## Mod changes
+- Added Fast Noise
+- Removed Noisium (Replaced by Fast Noise)
+## Other changes
+- Added some Twemoji emojis to the server
+
 # v2.0.0: The optional update (+ some content)
 In this version, all client-side only mods have been moved out of the pack, into their own `CLIENTSIDE` folder, as well as many new optional additions. CraftTweaker was also replaced with KubeJS, and some content changes were done.
 ## Mod changes
