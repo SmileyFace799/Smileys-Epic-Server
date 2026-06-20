@@ -1,9 +1,14 @@
 # v2.0.1
 ## Mod changes
 - Added Fast Noise
+- Modified Better Combat Particle Addition (Made optional)
+- Removed **Better Mob Combat** (Crashes the server for an unknown reason, therefore removed)
 - Removed Noisium (Replaced by Fast Noise)
+- Removed Visiting Villagers (Mod is broken low-effort slop)
 ## Other changes
 - Added some Twemoji emojis to the server
+- Fixed Sinytra Connector & Connector extras not actually being present in the mods folder
+- Fixed wrong .jar file for Sodium Options API in the optional mods
 
 # v2.0.0: The optional update (+ some content)
 In this version, all client-side only mods have been moved out of the pack, into their own `CLIENTSIDE` folder, as well as many new optional additions. CraftTweaker was also replaced with KubeJS, and some content changes were done.

@@ -14,8 +14,6 @@ Mods that are **bold** are significant content mods you probably care about
 - Barched (Adds some mobs from newer game versions back into 1.21.1)
 - Better Days
 - **Better Combat** (Changes the combat systme to be like Minecraft Dungeons. For those who don't like this, there is Better Combat Toggler in the optional mods)
-  - Better Combat Particle AAddition (Adds particles to some of the Better Combat attacks)
-  - **Better Mob Combat** (Makes humanoid mobs use Better Combat mechanics)
 - Biome Replacer (Allows for certain biomes to be replaced on the server)
 - Chipped (Tons of variants of many blocks for building)
 - Chisels And Bits (Cut blocks into tiny bits for small building)
@@ -204,19 +202,18 @@ Mods that are **bold** are significant content mods you probably care about
 - Structure Essentials
 - Tax Free Levels (Makes every level require the same amount of xp)
 - Twemoji (Discord emojis in Minecraft)
-- Visiting Villagers (Villagers will constantly come & go, making villages more alive)
 - Voxy (See beyond the render distance)
 - Wandering Pets (Pets can wander around instead of following you)
 - Waystones Teleport Pets
 ## Performance
 - All The Leaks
 - Despawn Tweaks
+- Fast Noise
 - Fast Paintings
 - FerriteCore (Optimizes memory usage)
 - GPU Memory Leak Fix
 - Leaky
 - Lithium (Optimizes game logic)
-- Noisium
 - Recipe Essentials
 - Sable Chunk Guard
 - Sable AABB Fix Enhanced
@@ -273,7 +270,6 @@ Mods that are **bold** are significant content mods you probably care about
 - ~~IChunUtil~~
 - Kotlin For Forge (Dependency for Farmer's Delight)
 - Lithostitched (Dependency for Tectonic)
-- Mob Player Animator (Dependency for Better Mob Combat)
 - Modonomicon (Dependency for Occultism)
 - Moonlight (Dependency for Grounded)
 - More Axolotl Variants API (Dependency for More Axolotl Variants)
@@ -293,7 +289,6 @@ Mods that are **bold** are significant content mods you probably care about
 - Sophisticated Core (Dependency for Sophisticated Backpacks & Sophisticated Storage)
 - SuperMartijn642's Config Lib (Dependency for Rechiseled)
 - SuperMartijn642's Core Lib (Dependency for Rechiseled)
-- ~~ToadLib (Dependency for ???)~~
 - TxniLib (Dependency for Despawn Tweaks)
 - Uranus (Dependency for Ice & Fire: Community Edition)
 - ~~YetAnotherConfigLib (Dependency for ???)~~
@@ -374,6 +369,7 @@ To quckly add all the recommended mods, they are also made easily available in t
     - *Placebo (Dependency for Toast Control)*
     - *Toast Control (Allows you to customize or disable toast messages like achivements & recipe book unlocks. **Requires Placebo**)*
   - *AppleSkin (Displays how much health, food & saturations any food item will give you)*
+  - *Better Combat Particle Addition [a.k.a. bc-particle] (Adds particles to some of the Better Combat attacks)*
   - *Better F1 (Adds another F1 state where HUD elements are hidden but held items are shown)*
   - *Boat Item View [a.k.a. boatiview] ()*
   - *ClickThrough Plus (Makes right-clicking a sign or an item frame on a chest open the chest instead)*
