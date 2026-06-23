@@ -1,3 +1,7 @@
+# v2.0.2
+## Mod changes
+- Added Concurrent Chunk Management Engine
+
 # v2.0.1
 ## Mod changes
 - Added Fast Noise

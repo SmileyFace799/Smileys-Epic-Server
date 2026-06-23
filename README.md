@@ -207,6 +207,7 @@ Mods that are **bold** are significant content mods you probably care about
 - Waystones Teleport Pets
 ## Performance
 - All The Leaks
+- Concurrent Chunk Management Engine
 - Despawn Tweaks
 - Fast Noise
 - Fast Paintings
