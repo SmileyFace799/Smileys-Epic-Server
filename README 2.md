@@ -5,7 +5,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 3.0.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (158)
+# Required Mods (155)
 ## Content (44)
 ### Major (8)
 - Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
@@ -101,7 +101,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Smooth Chunk Save
 - Veil
 
-## Technical Mods, Patch Mods & Fixes (31)
+## Technical Mods, Patch Mods & Fixes (28)
 - Aeronautics: Deployer Direction Fix
 - Almost Unified (Unifies duplicate resources)
 - Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
@@ -119,10 +119,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
   - WorldJS
 - Load My F***ing Tags (Prevents invalid tag entries from discarding the entire tag)
 - LootIntegrations (Integrates modded loot into loot tables from other mods)
-  - LootIntegrations Awesome
-  - LootIntegrations Better Archeology
-  - LootIntegrations Underground Villages
-  - LootIntegrations Vanilla
+  - LootIntegrations: Randomized Loot Compatibility
 - Nether Portal Fix
 - Packet Fixer
 - Polymorph (Allows you to pick what item to craft when two items have the same exact recipe)
