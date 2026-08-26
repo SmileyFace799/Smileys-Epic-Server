@@ -5,7 +5,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 3.0.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (155)
+# Required Mods (156)
 ## Content (44)
 ### Major (8)
 - Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
@@ -134,7 +134,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - StructureOverlapless (Prevents multiple structures from generating on top of each other)
 - Waystones Teleport Pets
 
-## Compatibility Mods (15)
+## Compatibility Mods (16)
 - Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
 - Create Aeronautics: Sable Mass Mod Compatibility (General compatibility for Create: Aeronautics & many other mods)
 - Create Slice & Dice (Compatibility between Create & Farmer's Delight)
@@ -142,6 +142,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Create: Chain Conveyors Compat (Compatibility between Create [chain conveyors] & Create: Aeronautics)
 - "Every Compat (Stone Zone)" (Compatibility between every modded stone type)
 - "Every Compat (Wood Good)" (Compatibility between every modded wood type)
+- "Every Compat (Gems Realm)" (Compatibility between every modded metal, dust & gem type)
 - Ferronautics (Compatibility between Create: Aeronautics & Create: Steam 'n' Rails)
 - FTB Chunks: Sable Aerospace (Compatibility between FTBChunks & Create: Aeronautics)
 - FTB XMod Compat (Compatibility between FTB Chunks, KubeJS & Waystones)
