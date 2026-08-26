@@ -101,7 +101,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Smooth Chunk Save
 - Veil
 
-## Technical Mods, Patch Mods & Fixes (32)
+## Technical Mods, Patch Mods & Fixes (31)
 - Aeronautics: Deployer Direction Fix
 - Almost Unified (Unifies duplicate resources)
 - Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
@@ -127,7 +127,6 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Packet Fixer
 - Polymorph (Allows you to pick what item to craft when two items have the same exact recipe)
 - Recipe Essentials
-- Remove Stardust Labs Intro Message (Removes the introduction message from Terralith, Incendium & Nullscape when joining a world for the first time)
 - Sable Chunk Guard
 - Sable Pathfinder
 - Sophisticated Tags
@@ -138,9 +137,9 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 ## Compatibility Mods (15)
 - Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
 - Create Aeronautics: Sable Mass Mod Compatibility (General compatibility for Create: Aeronautics & many other mods)
+- Create Slice & Dice (Compatibility between Create & Farmer's Delight)
 - Create: Cats Don't Care (Compatibility between Create & Cats Don't Care)
 - Create: Chain Conveyors Compat (Compatibility between Create [chain conveyors] & Create: Aeronautics)
-- Create: Slice & Dice (Compatibility between Create & Farmer's Delight)
 - "Every Compat (Stone Zone)" (Compatibility between every modded stone type)
 - "Every Compat (Wood Good)" (Compatibility between every modded wood type)
 - Ferronautics (Compatibility between Create: Aeronautics & Create: Steam 'n' Rails)
@@ -152,7 +151,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 
-## Libraries & Dependencies (30)
+## Libraries & Dependencies (31)
 - Architectuary API (Dependency for Animal Feeding Trough + FTB Chunks + FTB XMod Compat + Separated Leaves)
 - Athena (Dependency for Chipped)
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
@@ -168,6 +167,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - "Fusion (Connected Textures)" (Dependency for Rechiseled)
 - GeckoLib (Dependency for Occultism + Star Worm Equestrian)
 - Kiwi 🥝 (Dependency for Companion 🐕)
+- Kotlin For Forge (Dependency for Create Slice & Dice)
 - Lithostitched (Dependency for Tectonic)
 - Modonomicon (Dependency for Occultism)
 - Moonlight Lib (Dependency for "Every Compat (Stone Zone)" + "Every Compat (Wood Good)" + Fast Paintings + Spelunkery + Would)
