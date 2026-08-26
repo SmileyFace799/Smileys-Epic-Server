@@ -130,7 +130,6 @@ Mods that are **bold** are significant content mods you probably care about
 - Accessories (Adds extra accessory slots for certain equippable items)
 - Aeronautics No Leaf Collision
 - Aeronautics: Deployer Direction Fix
-- Alex's Mobs
 - Almost Unified (Unifies duplicate resources)
 - Animal Feeding Trough (Automatic animal feeder)
 - Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
@@ -167,7 +166,7 @@ Mods that are **bold** are significant content mods you probably care about
 - **Entombed** (When you die, creates a gravestone that holds your items, but you still lose xp. Solves the whole `keepInventory` debate)
 - FallingTree (Makes chopping down trees instant)
 - Falling Trees Physics (Create: Aeronautics contraptions can make trees fall over)
-- FTBChunks (Allows claiming area as "yours" on a map, up to 10 claimed chunks can be chunkloaded)
+- FTB Chunks (Allows claiming area as "yours" on a map, up to 10 claimed chunks can be chunkloaded)
 - Gallery (Adds icons for all paintings, and some extra painting tweaks)
 - Immersive Paintings (You can put any image you want on paintings)
 - Jump Over Fences
@@ -178,7 +177,7 @@ Mods that are **bold** are significant content mods you probably care about
   - LootIntegrations ATI
   - LootIntegrations Awesome
   - LootIntegrations Better Archeology
-  - LootIntegrations DNT
+  - LootIntegrations Dungeons And Taverns
   - LootIntegrations Ice & Fire
   - LootIntegrations Mo' Structures
   - LootIntegrations Underground Villages
@@ -212,13 +211,13 @@ Mods that are **bold** are significant content mods you probably care about
 - Fast Noise
 - Fast Paintings
 - FerriteCore (Optimizes memory usage)
-- GPU Memory Leak Fix
+- Fix GPU Memory Leak
 - Leaky
 - Lithium (Optimizes game logic)
 - Recipe Essentials
 - Sable Chunk Guard
-- Sable AABB Fix Enhanced
-- Smoothchunks
+- Sable AABB Fix
+- Smooth Chunk Save
 - Veil
 ## Compatibility
 - Accessories Compat Layer (Compatibility between Accessories & Curios)
@@ -228,17 +227,14 @@ Mods that are **bold** are significant content mods you probably care about
 - Create: Cats Don't Care (Compatibility between Create & Cats Don't Care)
 - Create: Chain Conveyors Compat (Compatibility between Create [chain conveyors] & Create: Aeronautics)
 - Create: Ferronautics (Compatibility between Create: Aeronautics & Create: Steam 'n' Rails)
-- Create: Regions Unexplored Compat (Compatibility between Create & Regions Unexplored)
 - Create: Slice & Dice (Compatibility between Create & Farmer's Delight)
 - Every Compat (Stone Zone) (Compatibility between every modded stone type)
 - Every Compat (Wood Good) (Compatibility between every modded wood type)
-- Farmer's Cutting: Regions Unexplored (Compatibility between Farmer's Delight & Regions Unexplored)
 - FTB Chunks: Sable Aerospace (Compatibility between FTBChunks & Create: Aeronautics)
 - Rechiseled: Chipped (Compatibility between Rechiseled & Chipped)
 - Rechiseled: Create (Compatibility between Rechiseled & Create)
 - Seasonal Integration (General compatibility for Serene Seasons)
 - Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
-- Vanilla Backport Compat (Compatibility between Vanilla Backport & William Wyther's Expanded Ecosystem)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 ## Dependencies
 - Architectuary API (Dependency for FTBChunks)
