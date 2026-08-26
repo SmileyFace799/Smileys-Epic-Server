@@ -183,9 +183,12 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - YUNG's API (Dependency for all YUNG's mods)
 
 # Optional Mods (Client-side only)
-## Recommended Mods
+Any optional mod mentioned here is found inside the `CLIENTSIDE` folder, and none of these come with the pack by default.
+## Recommended Mods (10)
+To quickly add all the recommended mods, they are also made easily available in `CLIENTSIDE` -> `RECOMMENDED PACKAGE`.
 - Performance -> Sodium -> *Sodium*
 - Player View Tweaks -> *AppleSkin*
+- Player View Tweaks -> Jade -> *Jade*
 - Recipe Browser -> EMI -> *EMI*
 - Recipe Broswer -> EMI -> *AdvancedLootInfo*
 - Recipe Browser -> EMI -> *TooManyRecipeBrowsers*
@@ -194,5 +197,81 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - World Map & Minimap -> *Xaero's Minimap*
 - World Map & Minimap -> *Xaero's World Map*
 
-## All Included Optional Mods
-- ...
+## All Included Optional Mods (57)
+- **Environemnt Immersion (6)**
+    - *Auroras (Adds occasional auroras to the night sky)*
+    - *Distant Thunders (Makes lightning strikes more realistic by delaying the thunder based on distance from the lightning strike)*
+    - *Fancy World Animations [a.k.a. fwa+] (Adds smooth animations to things like door & gates, as well as many other things)*
+    - *Particle Rain (Improves how rain looks, adds other various weather effects, makes it fall at an angle to simulate wind)*
+    - *Rainbows (Adds rainbows)*
+    - *Sound Physics Perfected (Uses ray traced audio)*
+- **Other (1)**
+    - *Female Gender Mod (Makes your character gendered)*
+- **Performance & Shaders (17)**
+    - Sodium (4)
+        - *Reese's Sodium Options (Better UI for changing Sodium's video settings. **Requires Sodium**)*
+        - *Sodium*
+        - *Sodium Options API (**Requires Reese's Sodium Options**)*
+        - *Sodium Shadowy Path Blocks (**Requires Sodium**)*
+    - Iris (5)
+        - *Colorwheel (**If you're adding Iris, add this too**)*
+        - *Colorwheel Patcher (**If you're adding Colorwheel, add this too**)*
+        - *Euphoria Patcher (**If you're adding Iris, add this too**)*
+        - *Iris (Allows you to have shaders)*
+        - *Iris Veil Compat [a.k.a. irisveil] (**If you're adding Iris, add this too**)*
+    - *BadOptimizations*
+    - *BetterBiomeBlend*
+    - *CreateBetterFps (**Requires Sodium & Iris**)*
+    - *Entity Culling*
+    - *ModernFix*
+    - *Create: Nowheel [a.k.a. nowheel] (**Requires Entity Culling**)*
+    - *Particle Core*
+    - *Spark*
+- **Player View Tweaks (5)**
+    - Jade (5)
+        - *Jade (Gives you info about what you're looking at)*
+        - *Jade Addons (Makes Jade give you mod-specific info when looking at things from various mods. **Requires Jade**)*
+        - *Jade Modded Entities (Makes Jade display extra entity information from other mods. **Requires Jade**)*
+        - *jadeownerfix (Fixes Jade displaying a pet's owner as "???" when the player is offline. **Requires Jade**)*
+        - *Jade Sable Compat [a.k.a. salbejade] (Makes Jade display Create: Aeronautics physics properties)*
+    - *AppleSkin (Displays how much health, food & saturations any food item will give you)*
+    - *ClickThrough Plus (Makes right-clicking a sign or an item frame on a chest open the chest instead)*
+    - *Leave My Bars Alone (Prevents your food & xp bar from being hidden when riding various mobs)*
+    - *Overflowing Bars (Makes HUD bars not overflow into multiple lines)*
+    - *Smart Cape Renderer (Hides capes when wearing a backpack from Sophisticated Backpacks)*
+- **Recipe Browser (6)**
+    - *EMI (An in-game recipe browser find out how to creaft things)*
+    - *AdvancedLootInfo (Displays loot info in EMI. **If you're adding EMI, add this too**)*
+    - *EMI++ [a.k.a. emixx] (Groups certain items together in EMI. **Requires EMI**)*
+    - *Extra Mod Integrations (Makes a few mods work with EMI that normally doesn't. **If you're adding EMI, add this too**)*
+    - *Smithing Template Viewer (Allows you to view how smithing templates look on your armor in EMI. **Requires EMI**)*
+    - *TooManyRecipeViewers (Allows mods that rely on JEI to work with EMI. **If you're adding EMI, add this too**)*
+- **UI & Menu Tweaks (13)**
+    - Invventory Profiles Next (3)
+        - *Inventory Profiles Next (Adds variious quality-of-life features for organizing your inventory- **Requires liblPN**)*
+        - *InvTweaks Emu for IPN (Add-on for Inventory Profiles Next that adds various shortcuts for quickly managing your inventory. **Requires Inventory Profiles Next**)*
+        - *liblPN (Library dependency for Inventory Profiles Next)*
+    - Mouse Tweaks (3)
+        - *More Mouse Tweaks (Adds more shortcuts to Mouse Tweaks. **Requires Mouse Tweaks**)*
+        - *Mouse Tweaks (Adds mouse shortcuts for inventory management)*
+        - *MouseTweaaks x Accessories Fix (Disables scrolling to take out / inserts items when in a GUI with a scrollbar. **If you're adding Mouse Tweaks, add this too**)*
+    - Auth Me (2)
+        - *Auth Me (Allows you to re-log in-game whenever you get an "Invalid Session" error. **Requires Resourceful Config**)*
+        - *Resourceful Config (Dependency for Auth Me)*
+    - *Client Crafting (makes crafting smoother & faster by eliminating server delay)*
+    - *Connectivity (Fixes various server connection issues)*
+    - *Controlling (Makes the keybinds menu searchable)*
+    - *Enchantment Descriptions [a.k.a. enchdesc] (Adds enchantment descriptions in the tooltip when hovering an enchanted item)*
+    - *Yukami's Sophisticated Backpack Tab [a.k.a. yukamibackpacktab] (Allows you to access your backpack from an inventory tab)*
+- **World Enhancements (4)**
+    - LambDynamicLights (2)
+        - *Create/Sable LambDynamicLights (Makes LambDynamicLights compatible with Create contraptions. **If you're adding LambDynamicLights, add this too**)*
+        - *LambDynamicLights (Makes dropped/held illuminating items & burning entities emit light)*
+    - *LambdaBetterGrass (Adds OptiFine's fancy grass/snow textures to the game, makes some non-full blocks (like fences) respect environmental conditions)*
+    - *Model Gap Fix [a.k.a. modelfix] (Fixes a bug where the surfaces of some 3d models have slight gaps between them when viewed from specific angles)*
+- **World Map & Minimap (5)**
+    - *FTB Chunks x Xaero's Compat [a.k.a. ftbxaerocompat] (Make you able to view & claim chunks with FTB Chunks, directly in Xaero's map. **Requires Xaero's Minimap and/or Xaero's World Map**)*
+    - *Sable x Xaero Bridge (Makes Create: Aeronautics sub-levels visible on Xaero's World & Minimap. **Requires Xaero's Minimap and/or Xaero's World Map**)*
+    - *Xaero's Minimap (Adds an in-game minimap for your world)*
+    - *Xaero Train Map (Shows Create trains on Xaero's World Map. **Requires Xaero's World Map**)*
+    - *Xaero's World Map (Adds an in-game fullscreen world map for your world)*
