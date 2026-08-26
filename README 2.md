@@ -171,7 +171,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Kotlin For Forge (Dependency for Create Slice & Dice)
 - Lithostitched (Dependency for Tectonic)
 - Modonomicon (Dependency for Occultism)
-- Moonlight Lib (Dependency for "Every Compat (Stone Zone)" + "Every Compat (Wood Good)" + Fast Paintings + Spelunkery + Would)
+- Moonlight Lib (Dependency for "Every Compat (Stone Zone)" + "Every Compat (Wood Good)" + "Every Compat (Gems Realm)" + Fast Paintings + Spelunkery + Would)
 - playerAnimator (Dependency for Climbable Ropes For Create Aeronautics + Star Worm Equestrian)
 - Prickle (Dependency for AttributeFix)
 - Puzzles Lib (Dependency for Cut Through + Dyed Flames)
