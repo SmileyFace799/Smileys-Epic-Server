@@ -5,9 +5,9 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 3.0.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods
-## Content
-### Major
+# Required Mods (155)
+## Content (44)
+### Major (9)
 - Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
 - Create
     - Create: Aeronautics (Aerial transport & physics in minecraft, very epic)
@@ -18,7 +18,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Rechiseled
 - Star Worm Equestrian
 
-### Minor
+### Minor (16)
 - Animal Feeding Trough (Automatic animal feeder)
 - Chipped (Tons of variants of many blocks for building)
 - Cooking For Blockheads (Cook food, but fancy)
@@ -36,7 +36,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Stoneworks
 - Waystones
 
-### Social
+### Social (6)
 - Create: Numismatics
     - Create: Marketplace
 - Envelope (Send mail & messages & mail to other players through pigeons)
@@ -44,7 +44,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Simple Voice Chat
 - Twemoji (Discord emojis in Minecraft)
 
-### Interaction Changes
+### Interaction Changes (13)
 - Bedspreads (Allows putting banner patterns on beds)
 - Cats Don't Care (Cats can find cozy sports to lie down & sleep)
 - Crafting Tweaks
@@ -59,8 +59,8 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Separated Leaves (Leaves now only belong to logs of their wood type)
 - Tax Free Levels (Makes every level require the same amount of xp)
 
-## Worldgen
-### Major
+## Worldgen (19)
+### Major (6)
 - Amplified Nether (More nether biomes)
 - Continents (Makes landmasses divide more naturally into continents)
 - Nullscape (Better end generation)
@@ -68,7 +68,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Tectonic (Better terrain generation)
 - TerraBlender
 
-### Minor
+### Minor (13)
 - Sparse Structures (Spreads out structures more, prevents the world from being too crowded with modded structures everywhere)
 - Would (More wood types)
 - (YUNG's ...)
@@ -84,7 +84,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
     - YUNG's Bridges
     - YUNG's Extras
 
-## Performance
+## Performance (15)
 - All The Leaks
 - Clumps
 - Concurrent Chunk Management Engine
@@ -101,7 +101,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Smooth Chunk Save
 - Veil
 
-## Technical Mods, Patch Mods & Fixes
+## Technical Mods, Patch Mods & Fixes (32)
 - Aeronautics: Deployer Direction Fix
 - Almost Unified (Unifies duplicate resources)
 - Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
@@ -135,7 +135,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - StructureOverlapless (Prevents multiple structures from generating on top of each other)
 - Waystones Teleport Pets
 
-## Compatibility Mods
+## Compatibility Mods (15)
 - Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
 - Create Aeronautics: Sable Mass Mod Compatibility (General compatibility for Create: Aeronautics & many other mods)
 - Create: Cats Don't Care (Compatibility between Create & Cats Don't Care)
@@ -152,7 +152,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 
-## Libraries & Dependencies
+## Libraries & Dependencies (30)
 - Architectuary API (Dependency for Animal Feeding Trough + FTB Chunks + FTB XMod Compat + Separated Leaves)
 - Athena (Dependency for Chipped)
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
