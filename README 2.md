@@ -182,9 +182,9 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - "YetAnotherConfigLib (YACL)" (Dependency for Entombed)
 - YUNG's API (Dependency for all YUNG's mods)
 
-# Optional Mods (Client-side only)
+# Optional Mods [Client-side only] (57)
 Any optional mod mentioned here is found inside the `CLIENTSIDE` folder, and none of these come with the pack by default.
-## Recommended Mods (10)
+## Recommended Mods (10 / 57)
 To quickly add all the recommended mods, they are also made easily available in `CLIENTSIDE` -> `RECOMMENDED PACKAGE`.
 - Performance -> Sodium -> *Sodium*
 - Player View Tweaks -> *AppleSkin*
