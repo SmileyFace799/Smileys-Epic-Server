@@ -5,7 +5,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 3.0.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (155)
+# Required Mods (154)
 ## Content (44)
 ### Major (8)
 - Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
@@ -84,7 +84,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
     - YUNG's Bridges
     - YUNG's Extras
 
-## Performance (15)
+## Performance (14)
 - All The Leaks
 - Clumps
 - Concurrent Chunk Management Engine
@@ -95,7 +95,6 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Fix GPU Memory Leak
 - Leaky
 - Lithium (Optimizes game logic)
-- Recipe Essentials
 - Sable Chunk Guard
 - Sable AABB Fix
 - Smooth Chunk Save
