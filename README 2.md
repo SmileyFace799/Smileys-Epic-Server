@@ -5,7 +5,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 3.0.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (156)
+# Required Mods (158)
 ## Content (44)
 ### Major (8)
 - Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
@@ -152,10 +152,11 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 
-## Libraries & Dependencies (31)
+## Libraries & Dependencies (33)
 - Architectuary API (Dependency for Animal Feeding Trough + FTB Chunks + FTB XMod Compat + Separated Leaves)
 - Athena (Dependency for Chipped)
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
+- Better Advanced Tooltips (Dependency for KubeJS)
 - Bookshelf (Dependency for AttributeFix)
 - Citadel (Dependency for Alex's Mobs) [Unofficial Port]
 - Cloth Config API (Dependency for Tax Free Levels)
@@ -183,6 +184,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - SuperMartijn642's Config Lib (Dependency for Rechiseled)
 - SuperMartijn642's Core Lib (Dependency for Rechiseled)
 - TxniLib (Dependency for Despawn Tweaks)
+- "YetAnotherConfigLib (YACL)" (Dependency for Entombed)
 - YUNG's API (Dependency for all YUNG's mods)
 
 # Optional Mods (Client-side only)
