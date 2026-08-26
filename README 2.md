@@ -22,9 +22,9 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Chipped (Tons of variants of many blocks for building)
 - Cooking For Blockheads (Cook food, but fancy)
 - Create Aeronautics: Automated Logistics
-- Create Extra Casing (Colorable Create casings)
 - Create: Connected (QoL mechanical blocks for create)
 - Create: Copycats+ (Make stairs, slabs, doors, fences, etc. out of any block texture)
+- Create: Extra Casing (Colorable Create casings)
 - Project Red Core
   - CB Multipart (Allows sawing blocks into smaller parts. Also a dependency for all Project Red mods)
   - Project Red Integration (Adds redstone logic gates that work with redstone wires)
