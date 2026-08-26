@@ -7,7 +7,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modloader: Neoforge 21.1.230
 # Required Mods (155)
 ## Content (44)
-### Major (9)
+### Major (8)
 - Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
 - Create
     - Create: Aeronautics (Aerial transport & physics in minecraft, very epic)
@@ -15,10 +15,9 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Farmer's Delight (Adds a bunch of foods)
   - Expanded Delight
 - Occultism (Magic wizard slavery)
-- Rechiseled
 - Star Worm Equestrian
 
-### Minor (16)
+### Minor (17)
 - Animal Feeding Trough (Automatic animal feeder)
 - Chipped (Tons of variants of many blocks for building)
 - Cooking For Blockheads (Cook food, but fancy)
@@ -30,6 +29,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
   - CB Multipart (Allows sawing blocks into smaller parts. Also a dependency for all Project Red mods)
   - Project Red Integration (Adds redstone logic gates that work with redstone wires)
   - Project Red Transmission (Adds redstone wires that go up to 100+ blocks, can be color-coded, and also works with CB Multipart)
+- Rechiseled
 - RE:Constructed Wands [Unofficial Port of Construction Wand] (Very useful for building big things)
 - Sophisticated Backpacks
 - Sophisticated Storage (Adds bigger chests & barrels)
@@ -156,7 +156,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Athena (Dependency for Chipped)
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
 - Bookshelf (Dependency for AttributeFix)
-- Citadel (Dependency for Alex's Mobs)
+- Citadel (Dependency for Alex's Mobs) [Unofficial Port]
 - Cloth Config API (Dependency for Tax Free Levels)
 - CodeChickenLib (Dependency for Project Red Core)
 - Collective (Dependency for Dismount Entity)
