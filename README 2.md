@@ -5,10 +5,10 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Modpack version: 3.0.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (153)
+# Required Mods (155)
 ## Content (44)
 ### Major (8)
-- Alex's Mobs (Many more mobs that inhabit the world) [Unofficial Port]
+- Alex's Mobs Continued (Many more mobs that inhabit the world)
 - Create
     - Create: Aeronautics (Aerial transport & physics in minecraft, very epic)
     - Create: Steam n' Rails (Epic trains) [Unofficial Port]
@@ -84,7 +84,8 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
     - YUNG's Bridges
     - YUNG's Extras
 
-## Performance (13)
+## Performance (14)
+- Alex's Mobs: Tweaks
 - All The Leaks
 - Clumps
 - Concurrent Chunk Management Engine
@@ -130,6 +131,7 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Waystones Teleport Pets
 
 ## Compatibility Mods (16)
+- Alex's Mobs Continued Delight (Compatibility between Alex's Mobs Continued & Farmer's Delight)
 - Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
 - Create Aeronautics: Sable Mass Mod Compatibility (General compatibility for Create: Aeronautics & many other mods)
 - Create Slice & Dice (Compatibility between Create & Farmer's Delight)
@@ -153,9 +155,9 @@ This is the modpack used for Smiley's Epic Server. While the modpack isn't here 
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
 - Better Advanced Tooltips (Dependency for KubeJS)
 - Bookshelf (Dependency for AttributeFix)
-- Citadel (Dependency for Alex's Mobs) [Unofficial Port]
 - Cloth Config API (Dependency for Tax Free Levels)
 - CodeChickenLib (Dependency for Project Red Core)
+- CodxLib (Dependency for Alex's Mobs Continued)
 - Collective (Dependency for Dismount Entity)
 - Cupboard (Dependency for Fix GPU Memory Leak + Leaky + Recipe Essentials + Smooth Chunk Save + Structure Essentials)
 - Curios API (Dependency for Occultism)
