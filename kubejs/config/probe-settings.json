@@ -6,6 +6,7 @@
         "neoforge",
         "lootjs",
         "morejs",
-        "kubejs-create"
+        "kubejs-create",
+        "worldjs"
     ]
 }

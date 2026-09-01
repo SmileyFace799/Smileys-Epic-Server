@@ -1,4 +1,0 @@
-#When true, Sable sub-levels (Create Aeronautics airships, Create Offroad cars, Simulated contraptions, etc.)
-#will not generate physics colliders for leaf blocks, pass through tree canopies,
-#ignore leaves during vehicle wheel terrain raycasts, and stop the contraption camera from clipping on leaves.
-disableSubLevelLeafCollision = true

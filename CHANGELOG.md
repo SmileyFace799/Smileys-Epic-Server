@@ -1,3 +1,6 @@
+# v3.0.0: The great deletening
+A bunch of content was removed from the pack, to reduce bloat & make the pack more low-end compatible. Silver was tweaked to be "deepslate iron", but aside from that, this update is just content removal. Exact list of removed mods is not documented to save time, but refer to the "v3.0.0" commit for the changes.
+
 # v2.0.2
 ## Mod changes
 - Added Concurrent Chunk Management Engine

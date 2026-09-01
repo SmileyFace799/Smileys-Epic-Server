@@ -1,9 +1,9 @@
 # || =========== [Horse Care] =========== ||
 [horse_care]
 	# || Do horses need to eat? (Default = True = Yes)
-	needFood = false
+	needFood = false # CHANGED
 	# || Do horses need to drink? (Default = True = Yes)
-	needWater = false
+	needWater = false # CHANGED
 	# || Enable Poop ticking on swem horses? (Default = True = Yes)
 	poopTick = true
 	# || Specify range (radius) that the horses search for food/water. The larger the  radius, the more lag it can cause per horse.
@@ -15,14 +15,14 @@
 	# || We recommend '1800' (30min) for singleplayer, and '2700' (45min) for multiplayer.
 	# Default: 1800
 	# Range: > 1
-	poopInterval = 2700
+	poopInterval = 2700 # CHANGED (default: 1800)
 	# || Enable Pee ticking on swem horses? (Default = True = Yes)
 	peeTick = true
 	# || Specify in seconds the interval between each pee cycle.
 	# || We recommend '1500' (25min) for singleplayer, and '2700' (45min) for multiplayer.
 	# Default: 1500
 	# Range: > 1
-	peeInterval = 2700
+	peeInterval = 2700 # CHANGED (default: 1500)
 	# || Specify how many seconds it takes for the foal to growp up?
 	# || We recommend '1800' (30min) for singleplayer, and '28800' (8hr) for multiplayer.
 	# Default: 1800
@@ -173,7 +173,7 @@
 	enableKeyPermission = false
 	# || What horses should spawn? Vanilla horses only, SWEM horses only, or Both?
 	#Allowed Values: VANILLA_ONLY, SWEM_ONLY, BOTH
-	horseSpawn = "VANILLA_ONLY"
+	horseSpawn = "VANILLA_ONLY" # CHANGED (default: "BOTH")
 	# || Enables fireworks to be shot out of jumps and barrels when horses touch them.
 	fireworkDisplay = false
 	# || Should winged horse fly without requirement of Amethyst Horse Armor?

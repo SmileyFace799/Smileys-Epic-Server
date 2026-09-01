@@ -13,7 +13,7 @@ debug:
   showTranslatedTagsByDefault: false
   printDataComponentsWhenCopy: true
   tagsTooltip: true
-  debugTooltipMsg: false
+  debugTooltipMsg: false # CHANGED
   tagsTooltipAppendKeybindHint: false
   F3CopyInInventory: true
   tagsPerPage: 6
