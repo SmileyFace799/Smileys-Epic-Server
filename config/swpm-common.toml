@@ -1,4 +1,0 @@
-# || =========== [Recipes] =========== ||
-[recipes]
-	# || Limit and disable majority of crafting recipes in SWPM
-	limit_recipes = false
