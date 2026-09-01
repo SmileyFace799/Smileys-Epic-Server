@@ -1,0 +1,9 @@
+{
+  "feature": "occultism:ore_silver_deepslate",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

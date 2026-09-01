@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "occultism:ore_silver",
+    "occultism:ore_silver_small"
+  ],
+  "step": "underground_ores"
+}

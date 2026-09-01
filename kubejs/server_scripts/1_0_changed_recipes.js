@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.remove({type: "minecraft:crafting_shaped", output: "swem:star_worm", input: "#swem:star_worm_cobble"});
 
     // ADDED / CHANGED
+
     // Red alloy wires
     event.remove({type: "minecraft:crafting_shaped", output: "projectred_transmission:red_alloy_wire"});
     event.shaped("9x projectred_transmission:red_alloy_wire", [

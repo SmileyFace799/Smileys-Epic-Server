@@ -101,9 +101,9 @@ ServerEvents.recipes(event => {
     // 1 Loop | Consumes 1x Copper Nugget
     event.recipes.createSequencedAssembly(
         'numismatics:spur', 
-        'createdeco:copper_coinstack', 
+        'create:copper_nugget', 
         [
-            event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'minecraft:copper_nugget']),
+            event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:copper_nugget']),
             event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
         ]
     ).transitionalItem('create:incomplete_precision_mechanism').loops(128);
@@ -112,29 +112,18 @@ ServerEvents.recipes(event => {
     // 8 Loops | Consumes 8x Zinc Nuggets total
     event.recipes.createSequencedAssembly(
         'numismatics:bevel', 
-        'createdeco:zinc_coinstack', 
+        'create:zinc_nugget', 
         [
             event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:zinc_nugget']),
             event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
         ]
     ).transitionalItem('create:incomplete_precision_mechanism').loops(64);
 
-    // 3. Industrial Iron Coinstack -> 4x Iron Sprocket Coins (Total Value: 64 Spurs)
-    // 16 Loops | Consumes 16x Iron Nuggets total
-    event.recipes.createSequencedAssembly(
-        'numismatics:sprocket', 
-        'createdeco:industrial_iron_coinstack', 
-        [
-            event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'minecraft:iron_nugget']),
-            event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
-        ]
-    ).transitionalItem('create:incomplete_precision_mechanism').loops(32);
-
     // 4. Iron Coinstack -> 4x Iron Sprocket Coins (Total Value: 64 Spurs)
     // 16 Loops | Consumes 16x Iron Nuggets total
     event.recipes.createSequencedAssembly(
         'numismatics:sprocket', 
-        'createdeco:iron_coinstack', 
+        'minecraft:iron_nugget', 
         [
             event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'minecraft:iron_nugget']),
             event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
@@ -145,7 +134,7 @@ ServerEvents.recipes(event => {
     // 32 Loops | Consumes 32x Brass Nuggets total
     event.recipes.createSequencedAssembly(
         'numismatics:cog', 
-        'createdeco:brass_coinstack', 
+        'create:brass_nugget', 
         [
             event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:brass_nugget']),
             event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
@@ -156,7 +145,7 @@ ServerEvents.recipes(event => {
     // 8 Loops | Consumes 8x Diamonds total
     event.recipes.createSequencedAssembly(
         'numismatics:crown', 
-        'createdeco:gold_coinstack', 
+        'minecraft:gold_nugget', 
         [
             event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'minecraft:diamond']),
             event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
@@ -167,7 +156,7 @@ ServerEvents.recipes(event => {
     // 4 Loops | Consumes 4x Netherite Scraps total
     event.recipes.createSequencedAssembly(
         'numismatics:sun', 
-        'createdeco:netherite_coinstack', 
+        'minecraft:netherite_scrap', 
         [
             event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'minecraft:netherite_scrap']),
             event.recipes.create.pressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
