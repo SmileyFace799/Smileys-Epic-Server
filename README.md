@@ -16,9 +16,9 @@ This is the modpack used for Smiley's Epic Server.
     4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-27)
     5. [Compatibility Mods](#compatibility-mods-16)
     6. [Libraries & Dependencies](#libraries--dependencies-33)
-3. [Optional Mods](#optional-mods-client-side-only-60)
-    1. [Recommended Mods](#recommended-mods-12--60)
-    2. [All Included Optional Mods](#all-included-optional-mods-60)
+3. [Optional Mods](#optional-mods-client-side-only-62)
+    1. [Recommended Mods](#recommended-mods-12--62)
+    2. [All Included Optional Mods](#all-included-optional-mods-62)
 4. [Config Changes](#config-changes)
 5. [Recipe Changes](#recipe-changes)
 6. [Other Changes](#other-changes)
@@ -207,9 +207,9 @@ This is the modpack used for Smiley's Epic Server.
 - "YetAnotherConfigLib (YACL)" (Dependency for Entombed)
 - YUNG's API (Dependency for all YUNG's mods)
 
-# Optional Mods [Client-side only] (60)
+# Optional Mods [Client-side only] (62)
 Any optional mod mentioned here is found inside the `CLIENTSIDE` folder, and none of these come with the pack by default.
-## Recommended Mods (12 / 60)
+## Recommended Mods (12 / 62)
 To quickly add all the recommended mods, they are also made easily available in `CLIENTSIDE` -> `! RECOMMENDED PACKAGE !`, where you can drag the contents of this folder into your mod folder.
 - Performance -> Sodium -> *Sodium*
 - Player View Tweaks -> *AppleSkin*
@@ -225,7 +225,7 @@ To quickly add all the recommended mods, they are also made easily available in 
 - World Map & Minimap -> *Xaero's Minimap*
 - World Map & Minimap -> *Xaero's World Map*
 
-## All Included Optional Mods (60)
+## All Included Optional Mods (62)
 - **Environemnt Immersion (7)**
     - *Aeronautics Camera Sync (Makes your camera rotate with Create: Aeronautics contraptions)*
     - *Auroras (Adds occasional auroras to the night sky)*
@@ -236,13 +236,16 @@ To quickly add all the recommended mods, they are also made easily available in 
     - *Sound Physics Perfected (Uses ray traced audio)*
 - **Other (1)**
     - *Female Gender Mod (Makes your character gendered)*
-- **Performance & Shaders (18)**
+- **Performance & Shaders (19)**
     - Iris (5)
         - *Colorwheel (**If you're adding Iris, add this too**)*
         - *Colorwheel Patcher (**If you're adding Colorwheel, add this too**)*
-        - *Euphoria Patcher (**If you're adding Iris, add this too**)*
+        - *Euphoria Patcher (**If you're using Complementary Shaders with Iris, add this too**)*
         - *Iris (Allows you to have shaders)*
         - *Iris Veil Compat [a.k.a. irisveil] (**If you're adding Iris, add this too**)*
+    - Particle Core (2)
+        - *Fzzy Config (Dependency for Particle Core)*
+        - *Particle Core (**Requires Fzzy Config**)*
     - Sodium (4)
         - *Reese's Sodium Options (Better UI for changing Sodium's video settings. **Requires Sodium**)*
         - *Sodium*
@@ -255,7 +258,6 @@ To quickly add all the recommended mods, they are also made easily available in 
     - *ImmediatelyFast*
     - *ModernFix*
     - *Create: Nowheel [a.k.a. nowheel] (**Requires Entity Culling**)*
-    - *Particle Core*
     - *Spark*
 - **Player View Tweaks (5)**
     - Jade (5)
@@ -276,7 +278,7 @@ To quickly add all the recommended mods, they are also made easily available in 
     - *Extra Mod Integrations (Makes a few mods work with EMI that normally doesn't. **If you're adding EMI, add this too**)*
     - *Smithing Template Viewer (Allows you to view how smithing templates look on your armor in EMI. **Requires EMI**)*
     - *TooManyRecipeViewers (Allows mods that rely on JEI to work with EMI. **If you're adding EMI, add this too**)*
-- **UI & Menu Tweaks (13)**
+- **UI & Menu Tweaks (12)**
     - Auth Me (2)
         - *Auth Me (Allows you to re-log in-game whenever you get an "Invalid Session" error. **Requires Resourceful Config**)*
         - *Resourceful Config (Dependency for Auth Me)*
@@ -287,19 +289,21 @@ To quickly add all the recommended mods, they are also made easily available in 
         - *Inventory Profiles Next (Adds variious quality-of-life features for organizing your inventory- **Requires liblPN**)*
         - *InvTweaks Emu for IPN (Add-on for Inventory Profiles Next that adds various shortcuts for quickly managing your inventory. **Requires Inventory Profiles Next**)*
         - *liblPN (Library dependency for Inventory Profiles Next)*
-    - Mouse Tweaks (3)
+    - Mouse Tweaks (2)
         - *More Mouse Tweaks (Adds more shortcuts to Mouse Tweaks. **Requires Mouse Tweaks**)*
         - *Mouse Tweaks (Adds mouse shortcuts for inventory management)*
-        - *MouseTweaaks x Accessories Fix (Disables scrolling to take out / inserts items when in a GUI with a scrollbar. **If you're adding Mouse Tweaks, add this too**)*
     - *Client Crafting (makes crafting smoother & faster by eliminating server delay)*
     - *Connectivity (Fixes various server connection issues)*
     - *Enchantment Descriptions [a.k.a. enchdesc] (Adds enchantment descriptions in the tooltip when hovering an enchanted item)*
     - *Yukami's Sophisticated Backpack Tab [a.k.a. yukamibackpacktab] (Allows you to access your backpack from an inventory tab)*
-- **World Enhancements (4)**
+- **World Enhancements (6)**
+    - LambdaBetterGrass (3)
+        - *Forgeified Fabric API (Dependency for Sinytra Connector)*
+        - *Sinytra Connector [a.k.a. connector] (Dependency for LambdaBetterGrass. **Requires Forgeified Fabric API**)*
+        - *LambdaBetterGrass (Adds OptiFine's fancy grass/snow textures to the game, makes some non-full blocks (like fences) respect environmental conditions. **Requires Sinytra Connector**)*
     - LambDynamicLights (2)
         - *Create/Sable LambDynamicLights (Makes LambDynamicLights compatible with Create contraptions. **If you're adding LambDynamicLights, add this too**)*
         - *LambDynamicLights (Makes dropped/held illuminating items & burning entities emit light)*
-    - *LambdaBetterGrass (Adds OptiFine's fancy grass/snow textures to the game, makes some non-full blocks (like fences) respect environmental conditions)*
     - *Model Gap Fix [a.k.a. modelfix] (Fixes a bug where the surfaces of some 3d models have slight gaps between them when viewed from specific angles)*
 - **World Map & Minimap (5)**
     - *FTB Chunks x Xaero's Compat [a.k.a. ftbxaerocompat] (Make you able to view & claim chunks with FTB Chunks, directly in Xaero's map. **Requires Xaero's Minimap and/or Xaero's World Map**)*
