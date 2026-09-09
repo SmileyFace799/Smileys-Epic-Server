@@ -1,3 +1,6 @@
+# v3.0.1
+No big changes in this version, but a few client-side mods had some version issues & missing dependencies, which is now fixed. **Every mod, both server- & client-side, now works**, and the modpack is ready to be played
+
 # v3.0.0: The great deletening
 A bunch of content was removed from the pack, to reduce bloat & make the pack more low-end compatible. Silver was tweaked to be "deepslate iron", but aside from that, this update is just content removal. Exact list of removed mods is not documented to save time, but refer to the "v3.0.0" commit for the changes.
 
