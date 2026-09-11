@@ -1,3 +1,40 @@
+# v3.1.0: More worldgen + Alex's Mobs recipe changes
+## Mod Changes
+- Added CliffTree
+- Added Regions Unexplored
+- Added Terralith
+- Added Vanilla Backport
+    - Added Platform
+## Config Changes
+- **Alex's Mobs Continued**
+  - Ported the config changes from the old Alex's Mobs fork into the new one
+- **CodxLib**
+  - Disabled in-game message to update the mod if it is not on the newest version
+## Recipe Changes
+- **Alex's Mobs Continued**
+    - Blood Sprayer: Changed recipe to not use removed items
+    - Cave Centipede Leggings: Changed recipe to not use removed items
+    - Crimson Mosquito Larva: Changed recipe to not use removed items
+    - Hemolymph Blaster: Changed recipe to not use removed items
+    - Potion of Poison Resistance: Changed recipe to not use removed items
+    - Sculk Boomer: Changed recipe to not use removed items
+    - Tendom Whip: Changed recipe to not use removed items
+    - Unsettling Kimono: Given a recipe, as Murmurs are disabled in the config
+- **Alex's Mobs Continued Delight**
+    - Bug skewer: Changed recipe to not use removed items
+    - Tendon Jerky: Changed recipe to not use removed items
+## Other Changes
+- **Alex's Mobs Continued**
+    - Removed Blood Sac, Crimson Mosquitoes are disabled in the config, so this item is obsolete
+    - Removed Cave Centipede Leg, Cave Centipedes are disabled in the config, so this item is obsolete
+    - Removed Crimson Mosquito Proboscis, Crimson Mosquitoes are disabled in the config, so this item is obsolete
+    - Removed Elastic Tendon, Murmurs are disabled in the config, so this item is obsolete
+    - Removed Hemolymph Sac, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
+    - Removed Skreecher Soul, Skreechers are disabled in the config, so this item is obsolete
+    - Removed Warped Muscle, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
+- **Alex's Mobs Continued Delight**
+    - Removed Hemolymph Jelly, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item does not make sense
+
 # v3.0.1
 No big changes in this version, but a few client-side mods had some version issues & missing dependencies, which is now fixed. **Every mod, both server- & client-side, now works**, and the modpack is ready to be played
 

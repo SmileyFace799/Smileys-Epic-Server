@@ -1,21 +1,24 @@
 # Smiley's Epic Server
 This is the modpack used for Smiley's Epic Server.
+### How to join:
+1. Get whitelisted in [the discord](https://discord.com/invite/pMrcnwvR9p)
+2. Join this IP: `minecraft.smiley-face.no:19012`
 
 # Table of contents
 1. [Modpack details](#modpack-details)
-2. [Required Mods](#required-mods-156)
-    1. [Content](#content-46)
+2. [Required Mods](#required-mods-162)
+    1. [Content](#content-48)
         1. [Major](#major-8)
-        2. [Minor](#minor-19)
+        2. [Minor](#minor-21)
         3. [Social](#social-6)
         4. [Interaction Changes](#interaction-changes-13)
-    2. [World Generation](#world-generation-19)
-        1. [Major](#major-6)
+    2. [World Generation](#world-generation-22)
+        1. [Major](#major-9)
         2. [Minor](#minor-13)
     3. [Performance](#performance-14)
     4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-27)
     5. [Compatibility Mods](#compatibility-mods-16)
-    6. [Libraries & Dependencies](#libraries--dependencies-33)
+    6. [Libraries & Dependencies](#libraries--dependencies-34)
 3. [Optional Mods](#optional-mods-client-side-only-62)
     1. [Recommended Mods](#recommended-mods-12--62)
     2. [All Included Optional Mods](#all-included-optional-mods-62)
@@ -24,11 +27,11 @@ This is the modpack used for Smiley's Epic Server.
 6. [Other Changes](#other-changes)
 
 # Modpack details
-- Modpack version: 3.0.1
+- Modpack version: 3.1.0
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (156)
-## Content (46)
+# Required Mods (162)
+## Content (48)
 ### Major (8)
 - Alex's Mobs Continued (Many more mobs that inhabit the world)
 - Create
@@ -39,7 +42,7 @@ This is the modpack used for Smiley's Epic Server.
 - Occultism (Magic wizard slavery)
 - Star Worm Equestrian
 
-### Minor (19)
+### Minor (21)
 - Animal Feeding Trough (Automatic animal feeder)
 - Chipped (Tons of variants of many blocks for building)
 - Cooking For Blockheads (Cook food, but fancy)
@@ -49,6 +52,7 @@ This is the modpack used for Smiley's Epic Server.
 - Create: Dragons Plus (Adds new fan crafting options to Create)
     - Create: Colorful Catalysts (Catalysts for fan dyeing)
 - Create: Extra Casing (Colorable Create casings)
+- Nature's Compass (Find any biome you're looking for)
 - Project Red Core
   - CB Multipart (Allows sawing blocks into smaller parts. Also a dependency for all Project Red mods)
   - Project Red Integration (Adds redstone logic gates that work with redstone wires)
@@ -58,6 +62,7 @@ This is the modpack used for Smiley's Epic Server.
 - Sophisticated Backpacks
 - Sophisticated Storage (Adds bigger chests & barrels)
 - Stoneworks
+- Vanilla Backport (Backports a few vanilla things from newer version to 1.21.1. Also a dependency for CliffTree)
 - Waystones
 
 ### Social (6)
@@ -83,14 +88,17 @@ This is the modpack used for Smiley's Epic Server.
 - Separated Leaves (Leaves now only belong to logs of their wood type)
 - Tax Free Levels (Makes every level require the same amount of xp)
 
-## World Generation (19)
-### Major (6)
-- Amplified Nether (More nether biomes)
+## World Generation (22)
+### Major (9)
+- Amplified Nether (Reworks nether generation, nether is also taller)
+- CliffTree (Reworks vanilla biomes)
 - Continents (Makes landmasses divide more naturally into continents)
 - Nullscape (Better end generation)
+- Regions Unexplored (More biomes pog)
 - Spelunkery (Underground overhaul)
 - Tectonic (Better terrain generation)
 - TerraBlender
+- Terralith (More biomes pog)
 
 ### Minor (13)
 - Sparse Structures (Spreads out structures more, prevents the world from being too crowded with modded structures everywhere)
@@ -172,7 +180,7 @@ This is the modpack used for Smiley's Epic Server.
 - Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 
-## Libraries & Dependencies (33)
+## Libraries & Dependencies (34)
 - Architectuary API (Dependency for Animal Feeding Trough + FTB Chunks + FTB XMod Compat + Separated Leaves)
 - Athena (Dependency for Chipped)
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
@@ -193,6 +201,7 @@ This is the modpack used for Smiley's Epic Server.
 - Lithostitched (Dependency for Tectonic)
 - Modonomicon (Dependency for Occultism)
 - Moonlight Lib (Dependency for "Every Compat (Stone Zone)" + "Every Compat (Wood Good)" + "Every Compat (Gems Realm)" + Fast Paintings + Spelunkery + Would)
+- Platform (Dependency for Vanilla Backport)
 - playerAnimator (Dependency for Climbable Ropes For Create Aeronautics + Star Worm Equestrian)
 - Prickle (Dependency for AttributeFix)
 - Puzzles Lib (Dependency for Cut Through + Dyed Flames)
@@ -313,7 +322,7 @@ To quickly add all the recommended mods, they are also made easily available in 
     - *Xaero's World Map (Adds an in-game fullscreen world map for your world)*
 
 # Config changes
-- **Alex's Mobs**
+- **Alex's Mobs Continued**
     - You are no longer given a book when first spawning in
     - Bone serpents are neutral instead of hostile
     - Raccoons will not steal items from chests
@@ -325,6 +334,8 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Cave Centipedes will not spawn
 - **CB Multipart**
     - Every non-slab & non-stairs block from Rechiseled has been added as valid sliceable blocks
+- **CodxLib**
+    - Disabled in-game message to update the mod if it is not on the newest version
 - **Create: Extra Casing**
     - Disabled in-game message upon first joining a world
 - **Create: Marketplace**
@@ -351,6 +362,18 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Waystones are free to use
     - Waystones teleport any pets following you
 # Recipe changes
+- **Alex's Mobs Continued**
+    - Blood Sprayer: Changed recipe to not use removed items
+    - Cave Centipede Leggings: Changed recipe to not use removed items
+    - Crimson Mosquito Larva: Changed recipe to not use removed items
+    - Hemolymph Blaster: Changed recipe to not use removed items
+    - Potion of Poison Resistance: Changed recipe to not use removed items
+    - Sculk Boomer: Changed recipe to not use removed items
+    - Tendom Whip: Changed recipe to not use removed items
+    - Unsettling Kimono: Given a recipe, as Murmurs are disabled in the config
+- **Alex's Mobs Continued Delight**
+    - Bug skewer: Changed recipe to not use removed items
+    - Tendon Jerky: Changed recipe to not use removed items
 - **Create**
     - Blackstone: Changed from haunting cobblestone to dyeing cobblestone
     - Infested Cobblestone: Can now be made by haunting cobblestone
@@ -391,6 +414,16 @@ To quickly add all the recommended mods, they are also made easily available in 
 # Other changes
 - **Vanilla**
     - Made the main bulk of iron a bit less common (silver is now a valid substitute for it)
+- **Alex's Mobs Continued**
+    - Removed Blood Sac, Crimson Mosquitoes are disabled in the config, so this item is obsolete
+    - Removed Cave Centipede Leg, Cave Centipedes are disabled in the config, so this item is obsolete
+    - Removed Crimson Mosquito Proboscis, Crimson Mosquitoes are disabled in the config, so this item is obsolete
+    - Removed Elastic Tendon, Murmurs are disabled in the config, so this item is obsolete
+    - Removed Hemolymph Sac, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
+    - Removed Skreecher Soul, Skreechers are disabled in the config, so this item is obsolete
+    - Removed Warped Muscle, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
+- **Alex's Mobs Continued Delight**
+    - Removed Hemolymph Jelly, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item does not make sense
 - **KubeJS**
     - Added smithing templates for all sub-netherite tiers
     - Sub-netherite smithing templates are given a duplication recipe
@@ -401,7 +434,7 @@ To quickly add all the recommended mods, they are also made easily available in 
 - **Project Red Core**
     - Every item in the mod not needed for Project Red Integration or Project Red Transmission has been disabled
 - **Star Worm Equestrian**
-    - Removed Cantazarite Ore, (Cantazarite is made craftable instead)
-    - Removed Cantazarite Dye, (Cantazarite potions are made with Cantazarite instead)
+    - Removed Cantazarite Ore, Cantazarite is made craftable instead
+    - Removed Cantazarite Dye, Cantazarite potions are made with Cantazarite instead
     - Removed Netherite Plates, as they have no use, and are way too unbalanced by appearing in bastion loot & converting into netherite ingots
     - Removed Star Worm Cobble, Star Worms now drop from destroying grass at night with a hoe instead
