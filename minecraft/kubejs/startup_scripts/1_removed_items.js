@@ -65,7 +65,19 @@ global.removedItems = Object.assign(
     "reconstructedwands:stone_wand": "reconstructedwands:infinity_wand",
     "reconstructedwands:iron_wand": "reconstructedwands:infinity_wand",
     "reconstructedwands:diamond_wand": "reconstructedwands:infinity_wand",
-    "reconstructedwands:netherite_wand": "reconstructedwands:infinity_wand"
+    "reconstructedwands:netherite_wand": "reconstructedwands:infinity_wand",
+
+    // Alex's Mobs Continued drops
+    "alexsmobs:centipede_leg": "2x alexsmobs:maggot",
+    "alexsmobs:elastic_tendon": "4x minecraft:string",
+    "alexsmobs:skreecher_soul": "alexsmobs:soul_heart",
+    "alexsmobs:blood_sac": "2x minecraft:nether_wart",
+    "alexsmobs:mosquito_proboscis": "2x minecraft:nether_wart",
+    "alexsmobs:hemolymph_sac": "2x minecraft:nether_wart",
+    "alexsmobs:warped_muscle": "4x minecraft:nether_wart",
+    "alexsmobs:hemolymph_sac": "2x minecraft:nether_wart",
+    "amcdelight:hemolymph_jelly": "amcdelight:rainbow_jelly_parfait",
+
   },
   // Illumars
   mapToObj(global.colors, color => `projectred_core:${color}_illumar`, _ => "2x minecraft:glowstone_dust")

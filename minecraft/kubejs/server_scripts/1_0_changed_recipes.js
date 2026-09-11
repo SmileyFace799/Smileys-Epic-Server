@@ -240,6 +240,83 @@ ServerEvents.recipes(event => {
     for (const stone of ["stone", "stone_bricks", "mossy_stone_bricks", "cracked_stone_bricks", "chiseled_stone_bricks", "deepslate"]) {
         create.crushing([CreateItem.of("create:experience_nugget")], [`minecraft:infested_${stone}`]);
     }
+    /*
+    function addCatalystRecipe(structure, orb, corners, top, sides, bottom) {
+        const catalyst = Item.of('instancednotinfinite:manifestation_catalyst[instancednotinfinite:manifestation_target={id:"' + structure + '",kind:"dungeon"}]');
+        event.remove(catalyst);
+        event.shaped(catalyst, [
+            "ABA",
+            "CDC",
+            "AEA"
+        ], {A: corners, B: top, C: sides, D: orb, E: bottom});
+        event.shaped(catalyst.withCount(2), [
+            "ABA",
+            "CDC",
+            "AEA"
+        ], {A: "minecraft:nether_bricks", B: "#c:rods/breeze", C: "#c:dusts/blaze", D: catalyst, E: "#c:storage_blocks/gold"});
+    }
+
+    addCatalystRecipe("betterfortresses:fortress", "kubejs:orb_nether", "minecraft:nether_bricks", "#c:rods/breeze", "#c:dusts/blaze", "#c:storage_blocks/gold");
+     */
+
+    // Bug Skewer
+    event.remove("amcdelight:bug_skewer");
+    event.shapeless("amcdelight:bug_skewer", ["#c:rods/wooden", "alexsmobs:maggot", "alexsmobs:maggot"]);
+
+    // Cave Centipede Leggings
+    event.remove("alexsmobs:centipede_leggings");
+    event.shaped("alexsmobs:centipede_leggings", [
+        "ABA",
+        "CDC"
+    ], {A: "#c:string", B: "minecraft:iron_leggings", C: "minecraft:spider_eye", D: "#c:slime_balls"});
+
+    // Unsettling Kimono
+    event.remove("alexsmobs:unsettling_kimono");
+    event.shaped("alexsmobs:unsettling_kimono", [
+        "ABA",
+        "ACA",
+        "ADA"
+    ], {A: "#c:wools/pink", B: "minecraft:wither_skeleton_skull", C: "#c:bones", D: "#c:string"});
+
+    // Tendon Whip
+    event.remove("alexsmobs:tendon_whip");
+    event.shaped("alexsmobs:tendon_whip", [
+        " AA",
+        "BCA",
+        "DB "
+    ], {A: "alexsmobs:dropbear_claw", B: "#c:slime_balls", C: "#c:ropes", D: "#c:rods/wooden"});
+
+    // Tendon Jerky
+    event.remove("amcdelight:tendon_jerky");
+    event.shapeless("2x amcdelight:tendon_jerky", ["amcdelight:cooked_predator_cut", "amcdelight:cooked_predator_cut", "amcdelight:animal_fat"]);
+
+    // Sculk Boomer
+    event.remove("alexsmobs:sculk_boomer");
+    event.shaped("alexsmobs:sculk_boomer", [
+        "AAA",
+        "ABA",
+        "CCC"
+    ], {A: "minecraft:sculk", B: "minecraft:note_block", C: "#c:storage_blocks/bone_meal"});
+
+    // Crimson Mosquito Larva
+    event.remove("alexsmobs:mosquito_larva");
+    event.shapeless("alexsmobs:mosquito_larva", ["alexsmobs:maggot", "#c:crops/nether_wart"]);
+
+    // Blood Sprayer
+    event.remove("alexsmobs:blood_sprayer");
+    event.shaped("alexsmobs:blood_sprayer", [
+        "AB ",
+        "CCD",
+        "C  "
+    ], {A: "minecraft:nether_wart_block", B: "minecraft:magma_cream", C: "#c:bricks/nether", D: "minecraft:bamboo"});
+
+    // Hemolymph Blaster
+    event.remove("alexsmobs:hemolymph_blaster");
+    event.shaped("alexsmobs:hemolymph_blaster", [
+        "A  ",
+        "BCD",
+        "A  "
+    ], {A: "minecraft:warped_wart_block", B: "alexsmobs:blood_sprayer", C: "alexsmobs:mimicream", D: "minecraft:bamboo"});
 });
 
 MoreJS.registerPotionBrewing(event => {
@@ -249,4 +326,9 @@ MoreJS.registerPotionBrewing(event => {
 
     // Health XP potion
     event.addCustomBrewing("swem:cantazarite", "minecraft:potion[potion_contents={potion:\"minecraft:healing\"}]", "swem:health_xp_potion");
+
+    // Potion of Poison Resistance
+    event.removeCustomBrewing({ingredient: "alexsmobs:centipede_leg"});
+    event.addCustomBrewing("minecraft:fermented_spider_eye", "alexsmobs:komodo_spit_bottle", "minecraft:potion[potion_contents={potion:\"alexsmobs:poison_resistance\"}]");
+    event.addCustomBrewing("minecraft:fermented_spider_eye", "alexsmobs:poison_bottle", "minecraft:potion[potion_contents={potion:\"alexsmobs:poison_resistance\"}]");
 })
