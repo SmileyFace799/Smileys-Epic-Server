@@ -7,17 +7,17 @@ This is the modpack used for Smiley's Epic Server.
 # Table of contents
 1. [Modpack details](#modpack-details)
 2. [Required Mods](#required-mods-162)
-    1. [Content](#content-48)
+    1. [Content](#content-47)
         1. [Major](#major-8)
-        2. [Minor](#minor-21)
+        2. [Minor](#minor-20)
         3. [Social](#social-6)
         4. [Interaction Changes](#interaction-changes-13)
-    2. [World Generation](#world-generation-22)
+    2. [World Generation](#world-generation-23)
         1. [Major](#major-9)
-        2. [Minor](#minor-13)
+        2. [Minor](#minor-14)
     3. [Performance](#performance-14)
     4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-27)
-    5. [Compatibility Mods](#compatibility-mods-16)
+    5. [Compatibility Mods](#compatibility-mods-17)
     6. [Libraries & Dependencies](#libraries--dependencies-34)
 3. [Optional Mods](#optional-mods-client-side-only-62)
     1. [Recommended Mods](#recommended-mods-12--62)
@@ -27,11 +27,11 @@ This is the modpack used for Smiley's Epic Server.
 6. [Other Changes](#other-changes)
 
 # Modpack details
-- Modpack version: 3.1.0
+- Modpack version: 3.1.1
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (162)
-## Content (48)
+# Required Mods (163)
+## Content (47)
 ### Major (8)
 - Alex's Mobs Continued (Many more mobs that inhabit the world)
 - Create
@@ -42,7 +42,7 @@ This is the modpack used for Smiley's Epic Server.
 - Occultism (Magic wizard slavery)
 - Star Worm Equestrian
 
-### Minor (21)
+### Minor (20)
 - Animal Feeding Trough (Automatic animal feeder)
 - Chipped (Tons of variants of many blocks for building)
 - Cooking For Blockheads (Cook food, but fancy)
@@ -50,7 +50,6 @@ This is the modpack used for Smiley's Epic Server.
 - Create: Connected (QoL mechanical blocks for create)
 - Create: Copycats+ (Make stairs, slabs, doors, fences, etc. out of any block texture)
 - Create: Dragons Plus (Adds new fan crafting options to Create)
-    - Create: Colorful Catalysts (Catalysts for fan dyeing)
 - Create: Extra Casing (Colorable Create casings)
 - Nature's Compass (Find any biome you're looking for)
 - Project Red Core
@@ -62,7 +61,7 @@ This is the modpack used for Smiley's Epic Server.
 - Sophisticated Backpacks
 - Sophisticated Storage (Adds bigger chests & barrels)
 - Stoneworks
-- Vanilla Backport (Backports a few vanilla things from newer version to 1.21.1. Also a dependency for CliffTree)
+- Vanilla Backport (Backports a few vanilla things from newer version to 1.21.1. Also a dependency for CliffTree & Geysers of Yellowstone)
 - Waystones
 
 ### Social (6)
@@ -88,7 +87,7 @@ This is the modpack used for Smiley's Epic Server.
 - Separated Leaves (Leaves now only belong to logs of their wood type)
 - Tax Free Levels (Makes every level require the same amount of xp)
 
-## World Generation (22)
+## World Generation (23)
 ### Major (9)
 - Amplified Nether (Reworks nether generation, nether is also taller)
 - CliffTree (Reworks vanilla biomes)
@@ -100,7 +99,8 @@ This is the modpack used for Smiley's Epic Server.
 - TerraBlender
 - Terralith (More biomes pog)
 
-### Minor (13)
+### Minor (14)
+- Geysers Of Yellowstone (Adds geysers to yellowstone biomes)
 - Sparse Structures (Spreads out structures more, prevents the world from being too crowded with modded structures everywhere)
 - Would (More wood types)
 - (YUNG's ...)
@@ -161,7 +161,7 @@ This is the modpack used for Smiley's Epic Server.
 - Structure Essentials
 - StructureOverlapless (Prevents multiple structures from generating on top of each other)
 
-## Compatibility Mods (16)
+## Compatibility Mods (17)
 - Alex's Mobs Continued Delight (Compatibility between Alex's Mobs Continued & Farmer's Delight)
 - Create Aeronautics: Rechiseled Compatibility (Compatibility between Create: Aeronautics & Rechiseled)
 - Create Aeronautics: Sable Mass Mod Compatibility (General compatibility for Create: Aeronautics & many other mods)
@@ -178,6 +178,7 @@ This is the modpack used for Smiley's Epic Server.
 - Rechiseled: Create (Compatibility between Rechiseled & Create)
 - Sophisticated Backpacks Create Integration (Compatibility between Sophisticated Backpacks & Create)
 - Sophisticated Storage Create Integration (Compatibility between Sophisticated Storage & Create)
+- TerraCliff (Compatibility between Terralith & CliffTree)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 
 ## Libraries & Dependencies (34)

@@ -1,3 +1,10 @@
+# v3.1.1
+## Mod Changes
+- Added Geysers of Yellowstone
+- Added TerraCliff
+- Modified CliffTree (Changed version 3.3.0 -> 3.1.5)
+- Removed Create: Colorful Catalysts (Obsolete, Create: Connected already adds this)
+
 # v3.1.0: More worldgen + Alex's Mobs recipe changes
 ## Mod Changes
 - Added CliffTree
