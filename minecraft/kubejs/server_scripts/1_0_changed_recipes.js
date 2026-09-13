@@ -317,6 +317,25 @@ ServerEvents.recipes(event => {
         "BCD",
         "A  "
     ], {A: "minecraft:warped_wart_block", B: "alexsmobs:blood_sprayer", C: "alexsmobs:mimicream", D: "minecraft:bamboo"});
+
+    // Cinnabar
+    const cinnabar_recipes = {
+        cinnabar: ["cobblestone", "stone", "cobbled_deepslate", "deepslate"],
+        polished_cinnabar: ["polished_deepslate"],
+        cinnabar_bricks: ["stone_bricks", "deepslate_bricks"],
+        chiseled_cinnabar: ["chiseled_stone_bricks", "chiseled_deepslate"]
+
+    }
+    for (let [out, inps] of Object.entries(cinnabar_recipes)) {
+        for (let inp of inps) {
+            event.shaped("8x minecraft:" + out, [
+                "AAA",
+                "ABA",
+                "AAA"
+            ], {A: "minecraft:" + inp, B: "spelunkery:cinnabar"});
+        }
+    }
+    create.milling(["minecraft:redstone", CreateItem.of("minecraft:redstone", 0.5)], ["spelunkery:cinnabar"]);
 });
 
 MoreJS.registerPotionBrewing(event => {

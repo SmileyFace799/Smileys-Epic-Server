@@ -6,17 +6,17 @@ This is the modpack used for Smiley's Epic Server.
 
 # Table of contents
 1. [Modpack details](#modpack-details)
-2. [Required Mods](#required-mods-162)
-    1. [Content](#content-47)
-        1. [Major](#major-8)
-        2. [Minor](#minor-20)
-        3. [Social](#social-6)
-        4. [Interaction Changes](#interaction-changes-13)
-    2. [World Generation](#world-generation-23)
+2. [Required Mods](#required-mods-170)
+    1. [Content](#content-50)
         1. [Major](#major-9)
+        2. [Minor](#minor-21)
+        3. [Social](#social-6)
+        4. [Interaction Changes](#interaction-changes-14)
+    2. [World Generation](#world-generation-22)
+        1. [Major](#major-8)
         2. [Minor](#minor-14)
     3. [Performance](#performance-14)
-    4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-27)
+    4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-30)
     5. [Compatibility Mods](#compatibility-mods-17)
     6. [Libraries & Dependencies](#libraries--dependencies-34)
 3. [Optional Mods](#optional-mods-client-side-only-62)
@@ -30,9 +30,9 @@ This is the modpack used for Smiley's Epic Server.
 - Modpack version: 3.1.1
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
-# Required Mods (163)
-## Content (47)
-### Major (8)
+# Required Mods (172)
+## Content (54)
+### Major (0)
 - Alex's Mobs Continued (Many more mobs that inhabit the world)
 - Create
     - Create: Aeronautics (Aerial transport & physics in minecraft, very epic)
@@ -40,12 +40,14 @@ This is the modpack used for Smiley's Epic Server.
 - Farmer's Delight (Adds a bunch of foods)
   - Expanded Delight
 - Occultism (Magic wizard slavery)
+- Spelunkery (Mining overhaul)
 - Star Worm Equestrian
 
-### Minor (20)
+### Minor (21)
 - Animal Feeding Trough (Automatic animal feeder)
 - Chipped (Tons of variants of many blocks for building)
 - Cooking For Blockheads (Cook food, but fancy)
+- Copper Age Backport (Backports copper tools into 1.21.1)
 - Create Aeronautics: Automated Logistics
 - Create: Connected (QoL mechanical blocks for create)
 - Create: Copycats+ (Make stairs, slabs, doors, fences, etc. out of any block texture)
@@ -72,9 +74,12 @@ This is the modpack used for Smiley's Epic Server.
 - Simple Voice Chat
 - Twemoji (Discord emojis in Minecraft)
 
-### Interaction Changes (13)
+### Interaction Changes (18)
 - Bedspreads (Allows putting banner patterns on beds)
+- Beltborne Lanterns (Allows hanging a lantern on yourself, which can emit light [with LambDynamicLights installed])
+- Cat Fighting (Cats can fight)
 - Cats Don't Care (Cats can find cozy sports to lie down & sleep)
+- Cosmetic Armor Reworked (Allows you to hide your armor)
 - Crafting Tweaks
 - Create Encased (All Create casings can be placed on shafts)
 - Creeper no Break Blocks (Creepers don't destroy blocks, while stilll keeping `mobGriefing` on for other mobs)
@@ -82,19 +87,20 @@ This is the modpack used for Smiley's Epic Server.
 - Cut Through (Swords swing through grass)
 - Dismount Entity (Allows dismounting entities from boats)
 - Dyed Flames (Burning entities burn with the same color as what ignited them)
+- Enhanced Cats (Adds more silly cat behavior to cats :3)
 - Entombed (When you die, creates a gravestone that holds your items, but you still lose xp. Solves the whole `keepInventory` debate)
 - KleeSlabs (Allows breaking only the top or bottom half of a double slab)
 - Separated Leaves (Leaves now only belong to logs of their wood type)
+- Sophisticated Inventory Interactions (Adds sort buttons to all inventories)
 - Tax Free Levels (Makes every level require the same amount of xp)
 
-## World Generation (23)
-### Major (9)
+## World Generation (22)
+### Major (8)
 - Amplified Nether (Reworks nether generation, nether is also taller)
 - CliffTree (Reworks vanilla biomes)
 - Continents (Makes landmasses divide more naturally into continents)
 - Nullscape (Better end generation)
 - Regions Unexplored (More biomes pog)
-- Spelunkery (Underground overhaul)
 - Tectonic (Better terrain generation)
 - TerraBlender
 - Terralith (More biomes pog)
@@ -132,12 +138,14 @@ This is the modpack used for Smiley's Epic Server.
 - Smooth Chunk Save
 - Veil
 
-## Technical Mods, Patch Mods & Fixes (27)
+## Technical Mods, Patch Mods & Fixes (30)
 - Aeronautics: Deployer Direction Fix
 - Almost Unified (Unifies duplicate resources)
 - Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
 - Climbable Ropes For Create Aeronautics
 - Companion 🐕 (Various tweaks to avoid accidentally killing / losing pets)
+- Copper Age Backport Durability Fix (Fixes Copper Age Backport items having no durability)
+- Copper Age Backport Registry Compat (Fixes Copper Age Backport crashing the game when another mod adds copper armor)
 - Create: AeroPortals (Aeronautics contraptions can go through portals)
 - Feature Recycler (Fixes "feature order cycle" error)
 - Jupiter (GUI for editing configs, config auto-syncing)
@@ -151,6 +159,7 @@ This is the modpack used for Smiley's Epic Server.
 - Load My F\*\*\*ing Tags (Prevents invalid tag entries from discarding the entire tag)
 - LootIntegrations (Integrates modded loot into loot tables from other mods)
   - LootIntegrations: Randomized Loot Compatibility
+- Neruina (Prevents the game from crashing when a mob causes a ticking error)
 - Nether Portal Fix
 - Packet Fixer
 - Polymorph (Allows you to pick what item to craft when two items have the same exact recipe)
@@ -181,7 +190,7 @@ This is the modpack used for Smiley's Epic Server.
 - TerraCliff (Compatibility between Terralith & CliffTree)
 - Waystones: Sable (Compatibility between Waystones & Create: Aeronautics)
 
-## Libraries & Dependencies (34)
+## Libraries & Dependencies (35)
 - Architectuary API (Dependency for Animal Feeding Trough + FTB Chunks + FTB XMod Compat + Separated Leaves)
 - Athena (Dependency for Chipped)
 - Balm (Dependency for Cooking For Blockheads + Crafing Tweaks + KleeSlabs + NetherPortalFix + Waystones)
@@ -191,8 +200,9 @@ This is the modpack used for Smiley's Epic Server.
 - CodeChickenLib (Dependency for Project Red Core)
 - CodxLib (Dependency for Alex's Mobs Continued)
 - Collective (Dependency for Dismount Entity)
+- Configurable (Dependency for Neruina)
 - Cupboard (Dependency for Fix GPU Memory Leak + Leaky + Recipe Essentials + Smooth Chunk Save + Structure Essentials)
-- Curios API (Dependency for Occultism)
+- Curios API (Dependency for Cosmetic Armor Reworked + Occultism)
 - FTB Library (Dependency for FTB Chunks + FTB XMod Compat)
 - FTB Teams (Dependency for FTB Chunks)
 - "Fusion (Connected Textures)" (Dependency for Rechiseled)
@@ -356,6 +366,8 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Disabled feeding & drinking needs, as they are way too demanding, and require players to be on constantly otherwise
     - Significantly increased horse pee & poop interval (they now piss & shit less)
     - SWEM Horses do not spawn naturally, and need to be obtained by using a Cantazarite potion a vanilla horse
+- **Terralith**
+	- Disabled in-game message upon first joining a singleplayer world
 - **Waystones**
     - Wild waystones do not generate
     - Villages do not generate with waystones

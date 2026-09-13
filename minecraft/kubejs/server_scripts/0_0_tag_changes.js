@@ -17,4 +17,9 @@ ServerEvents.tags("item", event => {
 ServerEvents.tags("block", event => {
     // SILVER
     event.add("minecraft:beacon_base_blocks", "occultism:silver_block");
+
+    /*
+    // Prevent moving spawners
+    event.add("simulated:non_movable", ["minecraft:spawner", "minecraft:trial_spawner"]);
+     */
 });

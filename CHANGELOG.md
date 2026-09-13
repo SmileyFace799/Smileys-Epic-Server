@@ -1,3 +1,28 @@
+# v3.1.2
+There was previously an issue where hitting a bison would cause a crash, this is now (hopefully) fixed by updating Alex's Mobs Continued
+
+## Mod changes
+- Added Beltborne Lanterns
+- Added Copper Age Backport
+	- Added Copper Age Backport Durability Fix
+	- Added Copper Age Backport Registry Compat
+- Added Cosmetic Armor Reworked
+- Added Neruina
+	- Added Configurable
+- Added Sophisticated Inventory Interactions
+- Modified Alex's Mobs Continued (Changed version 2.1.7 -> 2.1.13)
+- Modified CodxLib (Changed version 1.5.1 -> 1.6.0)
+- Modified Spelunkery (Changed category Major Worldgen -> Major Content)
+## Config Changes
+- **Terralith**
+	- Disabled in-game message upon first joining a singleplayer world
+## Recipe Changes
+- **Spelunkery**
+	- Cinnabar: Made craftable into Vanilla Backport's Cinnabar blocks, also made millable into redstone
+## Other changes
+- **Occultism**
+	- Fixed a bug with any recipe added by occultism where a silver ingot, nugget or block in the input was converted into iron
+
 # v3.1.1
 ## Mod Changes
 - Added Geysers of Yellowstone
@@ -11,36 +36,36 @@
 - Added Regions Unexplored
 - Added Terralith
 - Added Vanilla Backport
-    - Added Platform
+  	- Added Platform
 ## Config Changes
 - **Alex's Mobs Continued**
-  - Ported the config changes from the old Alex's Mobs fork into the new one
+	- Ported the config changes from the old Alex's Mobs fork into the new one
 - **CodxLib**
-  - Disabled in-game message to update the mod if it is not on the newest version
+	- Disabled in-game message to update the mod if it is not on the newest version
 ## Recipe Changes
 - **Alex's Mobs Continued**
-    - Blood Sprayer: Changed recipe to not use removed items
-    - Cave Centipede Leggings: Changed recipe to not use removed items
-    - Crimson Mosquito Larva: Changed recipe to not use removed items
-    - Hemolymph Blaster: Changed recipe to not use removed items
-    - Potion of Poison Resistance: Changed recipe to not use removed items
-    - Sculk Boomer: Changed recipe to not use removed items
-    - Tendom Whip: Changed recipe to not use removed items
-    - Unsettling Kimono: Given a recipe, as Murmurs are disabled in the config
+  	- Blood Sprayer: Changed recipe to not use removed items
+  	- Cave Centipede Leggings: Changed recipe to not use removed items
+  	- Crimson Mosquito Larva: Changed recipe to not use removed items
+  	- Hemolymph Blaster: Changed recipe to not use removed items
+  	- Potion of Poison Resistance: Changed recipe to not use removed items
+  	- Sculk Boomer: Changed recipe to not use removed items
+  	- Tendom Whip: Changed recipe to not use removed items
+  	- Unsettling Kimono: Given a recipe, as Murmurs are disabled in the config
 - **Alex's Mobs Continued Delight**
-    - Bug skewer: Changed recipe to not use removed items
-    - Tendon Jerky: Changed recipe to not use removed items
+  	- Bug skewer: Changed recipe to not use removed items
+  	- Tendon Jerky: Changed recipe to not use removed items
 ## Other Changes
 - **Alex's Mobs Continued**
-    - Removed Blood Sac, Crimson Mosquitoes are disabled in the config, so this item is obsolete
-    - Removed Cave Centipede Leg, Cave Centipedes are disabled in the config, so this item is obsolete
-    - Removed Crimson Mosquito Proboscis, Crimson Mosquitoes are disabled in the config, so this item is obsolete
-    - Removed Elastic Tendon, Murmurs are disabled in the config, so this item is obsolete
-    - Removed Hemolymph Sac, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
-    - Removed Skreecher Soul, Skreechers are disabled in the config, so this item is obsolete
-    - Removed Warped Muscle, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
+  	- Removed Blood Sac, Crimson Mosquitoes are disabled in the config, so this item is obsolete
+  	- Removed Cave Centipede Leg, Cave Centipedes are disabled in the config, so this item is obsolete
+  	- Removed Crimson Mosquito Proboscis, Crimson Mosquitoes are disabled in the config, so this item is obsolete
+  	- Removed Elastic Tendon, Murmurs are disabled in the config, so this item is obsolete
+  	- Removed Hemolymph Sac, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
+  	- Removed Skreecher Soul, Skreechers are disabled in the config, so this item is obsolete
+  	- Removed Warped Muscle, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
 - **Alex's Mobs Continued Delight**
-    - Removed Hemolymph Jelly, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item does not make sense
+  	- Removed Hemolymph Jelly, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item does not make sense
 
 # v3.0.1
 No big changes in this version, but a few client-side mods had some version issues & missing dependencies, which is now fixed. **Every mod, both server- & client-side, now works**, and the modpack is ready to be played
@@ -68,12 +93,12 @@ A bunch of content was removed from the pack, to reduce bloat & make the pack mo
 In this version, all client-side only mods have been moved out of the pack, into their own `CLIENTSIDE` folder, as well as many new optional additions. CraftTweaker was also replaced with KubeJS, and some content changes were done.
 ## Mod changes
 - Added Accessories
-  - Added Accessories Compat Layer
-  - Added owo
+	- Added Accessories Compat Layer
+	- Added owo
 - Added AdvancedLootInfo (optional)
 - Added Aeronautics No Leaf Collision
 - Added **Alex's Mobs**
-  - Added Citadel
+	- Added Citadel
 - Added All The Leaks
 - Added Almost Unified
 - Added Ambient Environment (optional)
@@ -82,32 +107,32 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added ATI Structures
 - Added ATI Structures Vanilla
 - Added Attribute Fix
-  - Added Bookshelf
-  - Added PrickleMC
+	- Added Bookshelf
+	- Added PrickleMC
 - Added Auroras (optional)
 - Added Auth Me (optional)
-  - Added Resourceful Config (optional)
+	- Added Resourceful Config (optional)
 - Added BadOptimizations
 - Added ~~BaguetteLib~~
 - Added Bedspreads
 - Added BetterBiomeBlend (optional)
 - **Added Better Combat**
-  - Added Better Combat Particle Addition
-  - Added Better Combat Toggler (optional)
-  - **Addeed Better Mob Combaat**
+	- Added Better Combat Particle Addition
+	- Added Better Combat Toggler (optional)
+	- **Addeed Better Mob Combaat**
 - Added Better Days
 - Added Better F1 (optional)
 - Added Better Modlist (optional)
-  - Added ModListMemory (optional)
+	- Added ModListMemory (optional)
 - Added Biome Replacer
 - Added Blueprint
-  - Added Gallery
-  - Added Personality
+	- Added Gallery
+	- Added Personality
 - Added Boat Item View (optional)
 - Added cat_jam (optional)
 - Added Camera Overhaul (optional)
 - Added Cats Don't Care
-  - Added Create: Cats Don't Care
+	- Added Create: Cats Don't Care
 - ~~Added Chunk Activity Tracker~~
 - Added Clickthrough Plus (optional)
 - Added Client Crafting (optional)
@@ -120,7 +145,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - ~~Added Configurable~~
 - Added Connectivity (optional)
 - Added Connector
-  - Added Connector Extras
+	- Added Connector Extras
 - Added Continents
 - Added Crafting Station
 - Added Crafting Tweaks
@@ -138,7 +163,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Create: Deco
 - Added Create: Design n' Decor
 - Added Create: Diesel Generators
-  - Added Oil Canister
+	- Added Oil Canister
 - Added Create: Dreams n' Desires
 - Added Create: Interiors
 - Added Create: Pattern Schematics
@@ -147,13 +172,13 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Cupboard
 - Added Cut Through
 - Added Despawn Tweaks
-  - Added TxniLib
+	- Added TxniLib
 - Added Diagonal Fences
 - Added Diagonal Walls
 - Added Diagonal Windows
 - Added Ding (optional)
 - Added Dismount Entity
-  - Added Collective
+	- Added Collective
 - Added Distant Thunders (optional)
 - Added Doppler (optional)
 - Added Drip Sounds (optional)
@@ -163,7 +188,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Easy Magic
 - Added Elytra Trail (optional)
 - Added EnchantWithMob
-  - Added Bagus Lib
+	- Added Bagus Lib
 - Added Enchantment Descriptions (optional)
 - Added Entity Model Features (optional)
 - Added Entity Pin Cushions (optional)
@@ -181,7 +206,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Explosive Enhancement (optional)
 - Added Exposure
 - Added Extreme Sound Muffler (optional)
-  - Added Synthesia: Sound Visualizer
+	- Added Synthesia: Sound Visualizer
 - Added Fabric Tabs (optional)
 - Added Fancy World Animations (optional)
 - Added Farmer's Cutting: Regions Unexplored
@@ -190,23 +215,23 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Feature Recycler
 - Added Fix Horizsontal Camera Lag (optional)
 - ~~Added Forgeified Fabric API~~
-  - ~~Added FKFR~~
+	- ~~Added FKFR~~
 - Added FTB Chunks x Xaero's Compat (optional)
 - Added GPU Memory Leak Fix
 - Added Grim Kingdoms: Lost Structures & Ruins
 - Added Grounded
-  - Added Moonlight
+	- Added Moonlight
 - ~~Added Iceberg~~
 - **Added Ice & Fire: Community Edition**
-  - Added Uranus
+	- Added Uranus
 - ~~Added IChunUtil~~
 - Added Illager Invasion
 - Added ImmediatelyFast (optional)
 - Added Immersive Lanterns (otpional)
 - Added Immersive Paintings
 - Added Inventory Profiles Next (optional)
-  - Added InvTweaks EMU for IPN (optional)
-  - Added liblPN (optional)
+	- Added InvTweaks EMU for IPN (optional)
+	- Added liblPN (optional)
 - Added Jade Addons (optional)
 - Added Jade Modded Entities (optional)
 - Added Jade Owner Fix (optional)
@@ -215,28 +240,28 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Jupiter
 - Added KleeSlabs
 - Added KubeJS
-  - Added KubeJSable
-  - Added KubeJS Create
-  - Added KubeJS Diesel Generators
-  - Added LootJS
-  - Added MoreJS
-  - Added ProbeJS
-  - Added Rhino
-  - Added WorldJS
+	- Added KubeJSable
+	- Added KubeJS Create
+	- Added KubeJS Diesel Generators
+	- Added LootJS
+	- Added MoreJS
+	- Added ProbeJS
+	- Added Rhino
+	- Added WorldJS
 - Added LambDynamicLights (optional)
-  - Added Create/Sable LambDynamicLights (optional)
+	- Added Create/Sable LambDynamicLights (optional)
 - Added Leaky
 - Added Leave My Bars Alone (optional)
 - Added Load My F***ing Tags
 - Added LootIntegrations
-  - Added LootIntegrations ATI
-  - Added LootIntegrations Awesome
-  - Added LootIntegrations Better Archeology
-  - Added LootIntegrations DNT
-  - Added LootIntegrations Ice & Fire
-  - Added LootIntegrations Mo' Structures
-  - Added LootIntegrations Underground Villages
-  - Added LootIntegrations Vanilla
+	- Added LootIntegrations ATI
+	- Added LootIntegrations Awesome
+	- Added LootIntegrations Better Archeology
+	- Added LootIntegrations DNT
+	- Added LootIntegrations Ice & Fire
+	- Added LootIntegrations Mo' Structures
+	- Added LootIntegrations Underground Villages
+	- Added LootIntegrations Vanilla
 - Added Macaw's Bridges
 - Added Macaw's Doors
 - Added Macaw's Dences & Walls
@@ -256,7 +281,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Model Gap Fix (optional)
 - Added ModListMemory (optional)
 - Added More Axolotl Variants
-  - Added More Axolotl Variants API
+	- Added More Axolotl Variants API
 - Added More Mouse Tweaks (optional)
 - Added MouseTweaaks x Accessories Fix (optional)
 - Added Mo' Structures
@@ -280,11 +305,11 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Polymorph
 - Added Polytone (optional)
 - Added Presence Footsteps (optional)
-  - Added Presence Footsteps x Sable (Aeronautics Compat) (optional)
+	- Added Presence Footsteps x Sable (Aeronautics Compat) (optional)
 - Added Pridecraft
 - ~~Added Prism~~
 - Added Punchy! (optional)
-  - Added Better Combat Punchy Fix (optional)
+	- Added Better Combat Punchy Fix (optional)
 - Added PuzzlesLib
 - Added Rainbows (optional)
 - Added Recipe Essentials
@@ -327,10 +352,10 @@ In this version, all client-side only mods have been moved out of the pack, into
 - **Added Terrablender**
 - ~~Added ToadLib~~
 - Added Toast Control (optional)
-  - Added Placebo (optional)
+	- Added Placebo (optional)
 - Added TooManyRecipeViewers (optional)
 - Added Transparent (optional)
-  - Added Ash API (optional)
+	- Added Ash API (optional)
 - Added Twemoji
 - Added Veil
 - Added Verdant
@@ -353,7 +378,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Modified Climbable Ropes (Changed version 2.0.0 -> 2.0.1)
 - Modified Colorwheel (Changed version 1.2.7 -> 1.2.8)
 - Modified Controlling (Made optional)
-  - Modified Searchables (Made optional)
+	- Modified Searchables (Made optional)
 - Modified Create Aeronautics: Automated Logistics (Changed version 0.3.0 -> 0.4.0)
 - Modified Create Deep Seas (Changed version 2.0.3 -> 2.1.3)
 - Modified Create Nowheel (Made optional)
@@ -362,8 +387,8 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Modified Create: Marketplace (Changed version 0.2.0 -> 0.2.2)
 - Modified CristelLib (Changed version 3.0.3 -> 3.1.0)
 - Modified EMI (Made optional)
-  - Modified EMI++ (Made optional, changed version 1.2.3 -> 2.1.3)
-  - Modified Extra Mod Integrations (Made optional)
+	- Modified EMI++ (Made optional, changed version 1.2.3 -> 2.1.3)
+	- Modified Extra Mod Integrations (Made optional)
 - Modified Entity Culling (Made optional)
 - Modified Jade (Made optional)
 - Modified Lithostitched (Changed version 1.7.7 -> 1.7.9)
@@ -372,14 +397,14 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Modified Mouse Tweaks (Made optional)
 - Modified Simple Voice Chat (Changed version 2.6.17 -> 2.6.18)
 - Modified Sodium (Made optional)
-  - Modified Iris (Made optional)
-    - Modified Colorwheel (Made optional)
-    - Modified Iris Veil Compat (Made optional)
-  - Modified Sodium Options API (Made optional)
-    - Modified Reese's Sodium Options (Made optional)
+	- Modified Iris (Made optional)
+  		- Modified Colorwheel (Made optional)
+  		- Modified Iris Veil Compat (Made optional)
+	- Modified Sodium Options API (Made optional)
+  		- Modified Reese's Sodium Options (Made optional)
 - Modified Sophisticated Core (Changed version 1.4.43.1912 -> 1.4.44.1923)
-  - Modified Sophisticated Backpacks (Changed version 3.25.46.1746 -> 3.25.51.1801)
-  - Modified Sophisticated Storage (Changed version 1.5.54.1762 -> 1.5.55.1772)
+	- Modified Sophisticated Backpacks (Changed version 3.25.46.1746 -> 3.25.51.1801)
+	- Modified Sophisticated Storage (Changed version 1.5.54.1762 -> 1.5.55.1772)
 - Modified Underground Village, Stoneholm (Changed version 1.5.7 -> 2.0)
 - Modified Waystones (Changed version 21.1.33 -> 21.1.34)
   . Modified Waystones: Sable (Changed version 1.0.2 -> 1.0.3)
@@ -389,7 +414,7 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Removed Critters & Companions (Replaced by Alex's Mobs)
 - Removed EMI Enchanting (Obsolete)
 - Removed EMI Loot (Replaced by AdvancedLootInfo)
-  - Removed Fzzy Config
+	- Removed Fzzy Config
 - Removed EMI Ores (Does not work on server without being server-side, which would require EMI ores client-side, therefore removed)
 - Removed EMI Professions (Obsolete)
 - Removed Gravestone Mod (Replaced by Entombed)
@@ -397,52 +422,52 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Removed Inventory Tweaks Refoxed (Replaced by Inventory Profiles Next)
 - Removed JEI (Replaced with TooManyRecipeViewers)
 - Removed JourneyMap (Replaced by Xaero's Minimap & Xaero's World Map)
-  - Removed JourneyMap Integration
+	- Removed JourneyMap Integration
 - Removed Smithing Tweaks (Replaced by custom coded template system in KubeJS)
 - Removed Sodium Dynamic Lights (Replaced by LambDynamicLights)
-  - Removed Create Sable Dynamic lights (Replaced by Create/Sable LambDynamicLights)
+	- Removed Create Sable Dynamic lights (Replaced by Create/Sable LambDynamicLights)
 - Removed Spawn (Replaced by Alex's Mobs)
 - **Removed William Wythers' Expanded Ecosphere** (Replaced with **Regions Unexplored**)
 ## Config & Recipe changes
 - Alex's Mobs
-  - Bone serpents are neutral instead of hostile
-  - Crimson Mosquitoes no longer spawn
-  - Seagulls no longer steal your food
+	- Bone serpents are neutral instead of hostile
+	- Crimson Mosquitoes no longer spawn
+	- Seagulls no longer steal your food
 - Construction Wands
-  - Removed all non-infinite construction wands
-  - Made the Infinity Wand significantly easier to craft
+	- Removed all non-infinite construction wands
+	- Made the Infinity Wand significantly easier to craft
 - Create
-  - Changed the Blackstone recipe to use black dyeing instead of haunting
-  - Haunting Cobblestone now yields Infested Cobblestone instead of Blackstone
-  - All infested blocks can now be crushed for a 50% Nugget of Experience yield, alongside their regular non-infested drops (non-infested variants that aren't normally crushable have no extra drops for their infested variant)
+	- Changed the Blackstone recipe to use black dyeing instead of haunting
+	- Haunting Cobblestone now yields Infested Cobblestone instead of Blackstone
+	- All infested blocks can now be crushed for a 50% Nugget of Experience yield, alongside their regular non-infested drops (non-infested variants that aren't normally crushable have no extra drops for their infested variant)
 - Ice & Fire: Community Edition
-  - Death worms no longer spawn
-  - Siren Islands no longer spawn
+	- Death worms no longer spawn
+	- Siren Islands no longer spawn
 - KubeJS
-  - Removed items are now properly removed from all loot, and should be fully unobtainable
-  - Added smithing templates for all sub-netherite tiers
-  - Sub-netherite smithing templates are given a duplication recipe
-  - Sub-netherite smithing templates can be found in various structure loot
+	- Removed items are now properly removed from all loot, and should be fully unobtainable
+	- Added smithing templates for all sub-netherite tiers
+	- Sub-netherite smithing templates are given a duplication recipe
+	- Sub-netherite smithing templates can be found in various structure loot
 - Star Worm Equestrian Mod
-  - SWEM Horses no longer spawn naturally, and need to be obtained by using a Cantazarite potion a vanilla horse
-  - Disabled feeding & drinking needs, as they are way too demanding, and require players to be on constantly otherwise
-  - Significantly increased horse pee & poop interval (they now piss & shit less)
-  - Removed Star Worm Cobble, Star Worms now drop from destroying grass at night with a hoe instead
-  - Removed Cantazarite Ore, Cantazarite is made craftable instead
-  - Removed Cantazarite Dye, Cantazarite potions are made with Cantazarite instead
-  - Removed Netherite Plates, as they have no use, and are way too unbalanced by appearing in bastion loot & converting into netherite ingots
-  - Changed the Cantazarite Anvil recipe
-  - Added a recipe for Health XP Potion, as there is no other way for a horse to gain Health XP when feeding & drinking is disabled
-  - Made Withered Amethyst Horse Armor significantly easier to craft
-  - Changed the recipes for shavings, as it overlapped with the Leaf Litter recipe
-  - Fixed the Sweet Feed recipe only accepting default chicken eggs
-  - Made Rose Feed slightly easier to craft, recipe now accepts any flower
-  - Made Block'o'Water significantly easier to craft
-  - Removed the Blaze Rod recipe added by the mod
+	- SWEM Horses no longer spawn naturally, and need to be obtained by using a Cantazarite potion a vanilla horse
+	- Disabled feeding & drinking needs, as they are way too demanding, and require players to be on constantly otherwise
+	- Significantly increased horse pee & poop interval (they now piss & shit less)
+	- Removed Star Worm Cobble, Star Worms now drop from destroying grass at night with a hoe instead
+	- Removed Cantazarite Ore, Cantazarite is made craftable instead
+	- Removed Cantazarite Dye, Cantazarite potions are made with Cantazarite instead
+	- Removed Netherite Plates, as they have no use, and are way too unbalanced by appearing in bastion loot & converting into netherite ingots
+	- Changed the Cantazarite Anvil recipe
+	- Added a recipe for Health XP Potion, as there is no other way for a horse to gain Health XP when feeding & drinking is disabled
+	- Made Withered Amethyst Horse Armor significantly easier to craft
+	- Changed the recipes for shavings, as it overlapped with the Leaf Litter recipe
+	- Fixed the Sweet Feed recipe only accepting default chicken eggs
+	- Made Rose Feed slightly easier to craft, recipe now accepts any flower
+	- Made Block'o'Water significantly easier to craft
+	- Removed the Blaze Rod recipe added by the mod
 - Waystones
-  - Made portstones slightly easier to craft
-  - The conversion recipe for the defauly waystone & portstone now uses a stone brick instead of a white dye
-  - All waystone variants now have conversion recipes
+	- Made portstones slightly easier to craft
+	- The conversion recipe for the defauly waystone & portstone now uses a stone brick instead of a white dye
+	- All waystone variants now have conversion recipes
 ## Other
 - Replaced all CraftTweaker scripts with KubeJS-equivalent (and slightly improved) scripts
 
@@ -458,38 +483,38 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Aeronautics: Deployer Direction Fix
 - Added Atmospheric Rain Backport
 - Added Barched
-  - Added Cloth Config API
+	- Added Cloth Config API
 - Added Chisels & Bits
 - Added Climbable Ropes for Create Aeronautics
 - Added Colorwheel
 - Added Controlling
-  - Added Searchables
+	- Added Searchables
 - Added Cooking for Blockheads
 - Added Copper Age Backport
-  - Added Copper Age Backport Durability Fix
+	- Added Copper Age Backport Durability Fix
 - Added Create Aeronautics: Automated Logistics
 - Added Create Aeronautics: Covers
-  - Added Cable Facades
+	- Added Cable Facades
 - Added Create Aeronautics: Dyeable Components
 - Added Create Sable Dynamic lights
-  - Added Sodium Dynamic Lights
-  - Added Sodium Options API
-    - Added Reese's Sodium Options
+	- Added Sodium Dynamic Lights
+	- Added Sodium Options API
+  		- Added Reese's Sodium Options
 - Added Create: AeroPortals
 - Added Create: Chain Conveyors Compat
 - Added Create: Colored Chain Conveyor
 - Added Create: Compact Flap
 - **Added Create: Deep Seas**
 - **Added Create: Dimensions, Steamworks Realm**
-  - Added Better Library
-  - Added Create: Better Villages
-  - Added Underground Village, Stoneholm
+	- Added Better Library
+	- Added Create: Better Villages
+	- Added Underground Village, Stoneholm
 - Added Create: Enchantment Industry
-  - Added Create: Dragons Plus
+	- Added Create: Dragons Plus
 - Added Create: Ferronautics
 - Added Create: Nowheel
 - **Added Create: Numismatics**
-  - Added Create: Marketplace
+	- Added Create: Marketplace
 - Added Create: Simulated Thrusters
 - Added Create: Stam1o Tweaks
 - Added Create: Tracks
@@ -503,25 +528,25 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added Modefite - Item Definition Backport
 - Added Nutritional balance
 - Added Serene Seasons
-  - Added GlitchCore
+	- Added GlitchCore
 - Added Simple Voice Chat
 - Added Star Worm Equestriam
-  - Added Star Worm Plus
-  - Added playerAnimator
+	- Added Star Worm Plus
+	- Added playerAnimator
 - Added Tinkerer's Smithing
 - Added Vanilla Backport
-  - Added Vanilla Backport Compat
-  - Added Platform
+	- Added Vanilla Backport Compat
+	- Added Platform
 - Added Xaero's Minimap
 - Added Xaero's World Map
 - Added YDM's Weapon Master (optional)
 - Added YUNG's Better Desert Temples | Dungeons | End Island | Jungle Temples | Mineshafts | Nether Fortresses | Ocean Monuments | Strongholds | Witch Huts | Bridges | Extras
-  - Added YUNG's API
+	- Added YUNG's API
 - Changed JourneyMap to be disabled
 - Changed JourneyMap Integration to be disabled
 - Chane
 - Removed Silent Gear (Semi-replaced by Create: Enchantment Industry)
-  - Removed SilentLib
+	- Removed SilentLib
 - Removed Iris & Oculus Flywheel Compat (Replaced by Colorwheel)
 ## Config changes
 - Create: Added a recipe to crush infested stone into experience nuggets
@@ -536,10 +561,10 @@ In this version, all client-side only mods have been moved out of the pack, into
 - Added JourneyMap Integration
 - **Added Nullscape**
 - **Added Occultism**
-  - Added Curious API
-  - Added GeckoLib
-  - Added Modonomicon
-  - Added SmartBrainLib
+	- Added Curious API
+	- Added GeckoLib
+	- Added Modonomicon
+	- Added SmartBrainLib
 - Added Waystones: Sable
 ## Config changes
 - FTBChunks: Claims do not prevent others from destorying blocks, force-load limit in a party is multiplied by the party size, max force-loaded chunks reduced to 10, force loaded chunks are loaded while offline
