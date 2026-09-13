@@ -1,3 +1,7 @@
+# v3.1.3
+## Mod Changes
+- Modified Sophisticated Inventory Interactions (Changed version 0.1.13.218 -> 0.1.10.173)
+
 # v3.1.2
 There was previously an issue where hitting a bison would cause a crash, this is now (hopefully) fixed by updating Alex's Mobs Continued
 

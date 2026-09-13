@@ -27,7 +27,7 @@ This is the modpack used for Smiley's Epic Server.
 6. [Other Changes](#other-changes)
 
 # Modpack details
-- Modpack version: 3.1.2
+- Modpack version: 3.1.3
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
 # Required Mods (172)
