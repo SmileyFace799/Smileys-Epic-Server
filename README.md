@@ -6,19 +6,19 @@ This is the modpack used for Smiley's Epic Server.
 
 # Table of contents
 1. [Modpack details](#modpack-details)
-2. [Required Mods](#required-mods-170)
-    1. [Content](#content-50)
+2. [Required Mods](#required-mods-172)
+    1. [Content](#content-54)
         1. [Major](#major-9)
         2. [Minor](#minor-21)
         3. [Social](#social-6)
-        4. [Interaction Changes](#interaction-changes-14)
+        4. [Interaction Changes](#interaction-changes-18)
     2. [World Generation](#world-generation-22)
         1. [Major](#major-8)
         2. [Minor](#minor-14)
     3. [Performance](#performance-14)
     4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-30)
     5. [Compatibility Mods](#compatibility-mods-17)
-    6. [Libraries & Dependencies](#libraries--dependencies-34)
+    6. [Libraries & Dependencies](#libraries--dependencies-35)
 3. [Optional Mods](#optional-mods-client-side-only-62)
     1. [Recommended Mods](#recommended-mods-12--62)
     2. [All Included Optional Mods](#all-included-optional-mods-62)
@@ -27,12 +27,12 @@ This is the modpack used for Smiley's Epic Server.
 6. [Other Changes](#other-changes)
 
 # Modpack details
-- Modpack version: 3.1.1
+- Modpack version: 3.1.2
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
 # Required Mods (172)
 ## Content (54)
-### Major (0)
+### Major (9)
 - Alex's Mobs Continued (Many more mobs that inhabit the world)
 - Create
     - Create: Aeronautics (Aerial transport & physics in minecraft, very epic)
