@@ -7,8 +7,8 @@ This is the modpack used for Smiley's Epic Server.
 # Table of contents
 1. [Modpack details](#modpack-details)
 2. [Required Mods](#required-mods-172)
-    1. [Content](#content-54)
-        1. [Major](#major-9)
+    1. [Content](#content-55)
+        1. [Major](#major-10)
         2. [Minor](#minor-21)
         3. [Social](#social-6)
         4. [Interaction Changes](#interaction-changes-18)
@@ -16,26 +16,27 @@ This is the modpack used for Smiley's Epic Server.
         1. [Major](#major-8)
         2. [Minor](#minor-14)
     3. [Performance](#performance-14)
-    4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-30)
+    4. [Technical Mods, Patch Mods & Fixes](#technical-mods-patch-mods--fixes-29)
     5. [Compatibility Mods](#compatibility-mods-17)
     6. [Libraries & Dependencies](#libraries--dependencies-35)
-3. [Optional Mods](#optional-mods-client-side-only-62)
-    1. [Recommended Mods](#recommended-mods-12--62)
-    2. [All Included Optional Mods](#all-included-optional-mods-62)
+3. [Optional Mods](#optional-mods-client-side-only-63)
+    1. [Recommended Mods](#recommended-mods-12--63)
+    2. [All Included Optional Mods](#all-included-optional-mods-63)
 4. [Config Changes](#config-changes)
 5. [Recipe Changes](#recipe-changes)
 6. [Other Changes](#other-changes)
 
 # Modpack details
-- Modpack version: 3.1.3
+- Modpack version: 3.1.4
 - Minecraft version: 1.21.1
 - Modloader: Neoforge 21.1.230
 # Required Mods (172)
-## Content (54)
-### Major (9)
+## Content (55)
+### Major (10)
 - Alex's Mobs Continued (Many more mobs that inhabit the world)
 - Create
     - Create: Aeronautics (Aerial transport & physics in minecraft, very epic)
+        - Create: Tracks (Aeronautics can now do land travel, very epic)
     - Create: Steam n' Rails (Epic trains) [Unofficial Port]
 - Farmer's Delight (Adds a bunch of foods)
   - Expanded Delight
@@ -138,14 +139,13 @@ This is the modpack used for Smiley's Epic Server.
 - Smooth Chunk Save
 - Veil
 
-## Technical Mods, Patch Mods & Fixes (30)
+## Technical Mods, Patch Mods & Fixes (29)
 - Aeronautics: Deployer Direction Fix
 - Almost Unified (Unifies duplicate resources)
 - Attribute Fix (Fixes some attributes & properties in the game having weird arbitrary "hard caps")
 - Climbable Ropes For Create Aeronautics
 - Companion 🐕 (Various tweaks to avoid accidentally killing / losing pets)
-- Copper Age Backport Durability Fix (Fixes Copper Age Backport items having no durability)
-- Copper Age Backport Registry Compat (Fixes Copper Age Backport crashing the game when another mod adds copper armor)
+- Copper Age Backport Patch (Fixes various issues with tje Copper Age Backport mod)
 - Create: AeroPortals (Aeronautics contraptions can go through portals)
 - Feature Recycler (Fixes "feature order cycle" error)
 - Jupiter (GUI for editing configs, config auto-syncing)
@@ -227,9 +227,9 @@ This is the modpack used for Smiley's Epic Server.
 - "YetAnotherConfigLib (YACL)" (Dependency for Entombed)
 - YUNG's API (Dependency for all YUNG's mods)
 
-# Optional Mods [Client-side only] (62)
+# Optional Mods [Client-side only] (63)
 Any optional mod mentioned here is found inside the `CLIENTSIDE` folder, and none of these come with the pack by default.
-## Recommended Mods (12 / 62)
+## Recommended Mods (12 / 63)
 To quickly add all the recommended mods, they are also made easily available in `CLIENTSIDE` -> `! RECOMMENDED PACKAGE !`, where you can drag the contents of this folder into your mod folder.
 - Performance -> Sodium -> *Sodium*
 - Player View Tweaks -> *AppleSkin*
@@ -245,7 +245,7 @@ To quickly add all the recommended mods, they are also made easily available in 
 - World Map & Minimap -> *Xaero's Minimap*
 - World Map & Minimap -> *Xaero's World Map*
 
-## All Included Optional Mods (62)
+## All Included Optional Mods (63)
 - **Environemnt Immersion (7)**
     - *Aeronautics Camera Sync (Makes your camera rotate with Create: Aeronautics contraptions)*
     - *Auroras (Adds occasional auroras to the night sky)*
@@ -316,13 +316,14 @@ To quickly add all the recommended mods, they are also made easily available in 
     - *Connectivity (Fixes various server connection issues)*
     - *Enchantment Descriptions [a.k.a. enchdesc] (Adds enchantment descriptions in the tooltip when hovering an enchanted item)*
     - *Yukami's Sophisticated Backpack Tab [a.k.a. yukamibackpacktab] (Allows you to access your backpack from an inventory tab)*
-- **World Enhancements (6)**
+- **World Enhancements (7)**
     - LambdaBetterGrass (3)
         - *Forgeified Fabric API (Dependency for Sinytra Connector)*
         - *Sinytra Connector [a.k.a. connector] (Dependency for LambdaBetterGrass. **Requires Forgeified Fabric API**)*
         - *LambdaBetterGrass (Adds OptiFine's fancy grass/snow textures to the game, makes some non-full blocks (like fences) respect environmental conditions. **Requires Sinytra Connector**)*
-    - LambDynamicLights (2)
-        - *Create/Sable LambDynamicLights (Makes LambDynamicLights compatible with Create contraptions. **If you're adding LambDynamicLights, add this too**)*
+    - LambDynamicLights (3)
+        - *Contraption Lights (Makes LambDynamicLights compatible with Create contraptions. **If you're adding LambDynamicLights, add this too**)*
+        - *Create/Sable LambDynamicLights (Makes LambDynamicLights compatible with Create: Aeronautics vehicles. **If you're adding LambDynamicLights, add this too**)*
         - *LambDynamicLights (Makes dropped/held illuminating items & burning entities emit light)*
     - *Model Gap Fix [a.k.a. modelfix] (Fixes a bug where the surfaces of some 3d models have slight gaps between them when viewed from specific angles)*
 - **World Map & Minimap (5)**
@@ -437,6 +438,10 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Removed Warped Muscle, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item is obsolete
 - **Alex's Mobs Continued Delight**
     - Removed Hemolymph Jelly, Warped Mosco cannot spawn due to Crimson Mosquitoes being disabled in the config, so this item does not make sense
+- **Create Connected**
+    - The item formerly named "Brass Gearbox" is now named "Directional Gearbox"
+    - The item formerly named "Vertical Brass Gearbox" is now named "Vertical Directional Gearbox"
+    - The achievement named "Serious Organization" had its description changed from "Place down a Brass Gearbox" to "Place down a Directional Gearbox"
 - **KubeJS**
     - Added smithing templates for all sub-netherite tiers
     - Sub-netherite smithing templates are given a duplication recipe
@@ -447,6 +452,7 @@ To quickly add all the recommended mods, they are also made easily available in 
 - **Project Red Core**
     - Every item in the mod not needed for Project Red Integration or Project Red Transmission has been disabled
 - **Star Worm Equestrian**
+    - Removed all naturally generating loot from this mod
     - Removed Cantazarite Ore, Cantazarite is made craftable instead
     - Removed Cantazarite Dye, Cantazarite potions are made with Cantazarite instead
     - Removed Netherite Plates, as they have no use, and are way too unbalanced by appearing in bastion loot & converting into netherite ingots

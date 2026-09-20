@@ -1,0 +1,5 @@
+{
+  "block.create_connected.brass_gearbox": "Directional Gearbox",
+  "item.create_connected.vertical_brass_gearbox": "Vertical Directional Gearbox",
+  "advancement.create_connected.brass_gearbox.desc": "Place down a Directional Gearbox"
+}

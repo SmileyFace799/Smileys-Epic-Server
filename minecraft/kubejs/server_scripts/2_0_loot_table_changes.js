@@ -1,4 +1,5 @@
 LootJS.lootTables(event => {
+    /*
     const removeLoot = [
         "swem:plate_netherite",
         "swem:cantazarite_dye",
@@ -11,6 +12,14 @@ LootJS.lootTables(event => {
             }
         });
     }
+     */
+
+    // Remove all SWEM loot
+    for (const table of event.modifyLootTables(global.regexAny).tables) {
+        table.pools.forEach(pool => {
+            pool.entries.removeItem(ItemFilter.custom(item => item.mod === "swem"));
+        });
+    }
 
     // SMITHING TEMPLATES
     // 1. Safe global ID collection list to completely bypass Java filter crashes
@@ -19,11 +28,11 @@ LootJS.lootTables(event => {
     allTableIds.forEach(resourceLocation => {
         let id = resourceLocation.toString();
 
-        if (id.includes('chests/')) {
+        if (id.includes('chests/') && !id.includes("inject") && !id.startsWith("farmersdelight") && !id.startsWith("expandeddelight")) {
 
             // 2. DYNAMIC MATCHING FOR VILLAGES
-            if (id.includes('village')) {
-                let table = event.getLootTable(id); 
+            if (id.includes('village') && !id.includes("temple")) {
+                let table = event.getLootTable(id);
                 if (table) {
                     // FIX: Creates a brand new independent pool so vanilla loot quantities stay normal!
                     table.createPool(pool => {

@@ -6,11 +6,11 @@ ServerEvents.recipes(event => {
 
     // 2. Define our tier progression rules
     const tiers = [
-        { name: 'copper',   template: 'kubejs:stone_to_copper_upgrade_template' },
-        { name: 'iron',     template: 'kubejs:copper_to_iron_upgrade_template' },
-        { name: 'gold',     template: 'kubejs:iron_to_gold_upgrade_template' },
-        { name: 'golden',   template: 'kubejs:iron_to_gold_upgrade_template' }, 
-        { name: 'diamond',  template: 'kubejs:gold_to_diamond_upgrade_template' }
+        { name: 'copper',   template: 'kubejs:stone_to_copper_upgrade_template', material: "#c:ingots/copper" },
+        { name: 'iron',     template: 'kubejs:copper_to_iron_upgrade_template',  material: "#c:ingots/iron_or_silver" },
+        { name: 'gold',     template: 'kubejs:iron_to_gold_upgrade_template',    material: "#c:ingots/gold" },
+        { name: 'golden',   template: 'kubejs:iron_to_gold_upgrade_template',    material: "#c:ingots/gold" }, 
+        { name: 'diamond',  template: 'kubejs:gold_to_diamond_upgrade_template', material: "#c:gems/diamond" }
     ];
 
     // 3. Scan the entire item registry
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
 
                 // --- SMITHING TABLE LOGIC ---
                 // Example: Upgrading a stone_hoe (baseItem) using a copper_hoe (itemId) as the ingredient
-                let requiredToolIngredient = itemId;
+                let requiredToolIngredient = tier.material;
 
                 if (baseItem && Item.exists(baseItem) && itemId !== baseItem) {
                     event.smithing(
@@ -75,26 +75,22 @@ ServerEvents.recipes(event => {
     // ==========================================
     // Back to using raw material ingots/gems for the crafting table duplication recipe
     const templateDuplicates = [
-        ['kubejs:stone_to_copper_upgrade_template', 'minecraft:copper_ingot'], 
-        ['kubejs:copper_to_iron_upgrade_template', 'minecraft:iron_ingot'],
-        ['kubejs:iron_to_gold_upgrade_template', 'minecraft:gold_ingot'],
-        ['kubejs:gold_to_diamond_upgrade_template', 'minecraft:diamond']
-    ];
+        {id: "kubejs:stone_to_copper_upgrade_template", from: "#c:stone_tool_materials", to: "#c:ingots/copper", block: "minecraft:stone"},
+        {id: "kubejs:copper_to_iron_upgrade_template", from: "#c:ingots/copper", to: "#c:ingots/iron_or_silver", block: "minecraft:deepslate"},
+        {id: "kubejs:iron_to_gold_upgrade_template", from: "#c:ingots/iron_or_silver", to: "#c:ingots/gold", block: "#c:obsidians/normal"},
+        {id: "kubejs:gold_to_diamond_upgrade_template", from: "#c:ingots/gold", to: "#c:gems/diamond", block: "#c:obsidians/crying"}
+    ]
 
-    templateDuplicates.forEach(([templateId, materialIngot]) => {
+    templateDuplicates.forEach(template => {
         event.shaped(
-            Item.of(templateId, 2), 
+            Item.of(template.id, 2), 
             [
-                'SBS',
-                'SDS',
-                'SSS'
+                'ABA',
+                'ACA',
+                'ADA'
             ], 
-            {
-                S: '#c:stones',       // Outer ring universally accepts any common stone tag alternative
-                B: materialIngot,     // Middle top: Uses the raw ingot/gem material
-                D: templateId         // Exact center slot: Template to copy
-            }
-        ).id(`kubejs:duplicate_${templateId.replace(':', '_')}`);
+            {A: template.from, B: template.id, C: template.block, D: template.to}
+        ).id(`kubejs:duplicate_${template.id.replace(':', '_')}`);
     });
 
     // 1. Copper Coinstack -> 64x Spur Coins (Total Value: 64 Spurs)

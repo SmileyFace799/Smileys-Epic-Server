@@ -1,3 +1,22 @@
+# v3.1.4
+## Mod Changes
+- Added Contraption Lights (optional)
+- Added Copper Age Backport Patch
+- Added Create: Tracks
+- Removed Copper Age Backport Durability Fix (Replaced by Copper Age Backport Patch)
+- Removed Copper Age Backport Registry Compat (Replaced by Copper Age Backport Patch)
+## Other Changes
+- **Create Connected**
+    - The item formerly named "Brass Gearbox" is now named "Directional Gearbox"
+    - The item formerly named "Vertical Brass Gearbox" is now named "Vertical Directional Gearbox"
+    - The achievement named "Serious Organization" had its description changed from "Place down a Brass Gearbox" to "Place down a Directional Gearbox"
+- **KubeJS**
+	- Fixed a bug where sub-netherite smithing templates were added more than once to some loot pools, hence making them more common than intended
+	- Made the duplication recipe for sub-netherite smithing templates considerably more expensive
+	- Made upgrading equipment with sub-netherite smithing templates significantly cheaper
+- **Star Worm Equestrian**
+	- Removed all naturally generating loot from this mod
+
 # v3.1.3
 ## Mod Changes
 - Modified Sophisticated Inventory Interactions (Changed version 0.1.13.218 -> 0.1.10.173)
