@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
     // ==========================================
     // Back to using raw material ingots/gems for the crafting table duplication recipe
     const templateDuplicates = [
-        {id: "kubejs:stone_to_copper_upgrade_template", from: "#c:stone_tool_materials", to: "#c:ingots/copper", block: "minecraft:stone"},
+        {id: "kubejs:stone_to_copper_upgrade_template", from: "#minecraft:stone_tool_materials", to: "#c:ingots/copper", block: "minecraft:stone"},
         {id: "kubejs:copper_to_iron_upgrade_template", from: "#c:ingots/copper", to: "#c:ingots/iron_or_silver", block: "minecraft:deepslate"},
         {id: "kubejs:iron_to_gold_upgrade_template", from: "#c:ingots/iron_or_silver", to: "#c:ingots/gold", block: "#c:obsidians/normal"},
         {id: "kubejs:gold_to_diamond_upgrade_template", from: "#c:ingots/gold", to: "#c:gems/diamond", block: "#c:obsidians/crying"}
