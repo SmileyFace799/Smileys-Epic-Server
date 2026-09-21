@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
     ], {A: "#c:obsidians/crying", B: "#c:rods/wooden"});
 
     // Basalt
-    event.crushing(["minecraft:basalt"], ["minecraft:smooth_basalt"])
+    event.crushing(["minecraft:basalt"], ["minecraft:smooth_basalt"]);
 
     // Blackstone
     event.remove({type: "create:haunting", output: "minecraft:blackstone"});
