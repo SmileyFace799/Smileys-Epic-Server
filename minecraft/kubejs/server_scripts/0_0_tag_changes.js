@@ -12,6 +12,8 @@ ServerEvents.tags("item", event => {
     event.add("c:ingots/iron_or_silver", ["minecraft:iron_ingot", "occultism:silver_ingot"]);
     event.add("c:nuggets/iron_or_silver", ["minecraft:iron_nugget", "occultism:silver_nugget"]);
     event.add("c:storage_blocks/iron_or_silver", ["minecraft:iron_block", "occultism:silver_block"]);
+    event.add("c:plates/iron_or_silver", ["create:iron_sheet", "gemsrealm:c/occultism/silver_sheet"]);
+    event.add("c:iron_or_silver_bars", ["minecraft:iron_bars", "gemsrealm:mc/occultism/silver_bars"])
 });
 
 ServerEvents.tags("block", event => {

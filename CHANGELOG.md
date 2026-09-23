@@ -3,6 +3,9 @@
 - **Create**
 	- Smooth Basalt: Can be crushed into regular basalt (since smooth basalt cannot be chiseled, while regular basalt can)
 	- Crushed Silver Ore: Can now be smelted into silver ingots (This was not possible due to a bug before)
+- **Gems Realm:**
+	- Silver Sheet: Pressing silver ingots will now give silver plates, which can be used as a substitute for iron plates
+	- Silver Bars: Can now be used as a substitute for iron bars
 
 # v3.1.4
 ## Mod Changes
