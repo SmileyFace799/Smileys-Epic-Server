@@ -339,6 +339,10 @@ ServerEvents.recipes(event => {
         }
     }
     create.milling(["minecraft:redstone", CreateItem.of("minecraft:redstone", 0.5)], ["spelunkery:cinnabar"]);
+
+    // Crushed silver fix
+    event.smelting("occultism:silver_ingot", "create:crushed_raw_silver", 0.1);
+    event.blasting("occultism:silver_ingot", "create:crushed_raw_silver", 0.1);
 });
 
 MoreJS.registerPotionBrewing(event => {

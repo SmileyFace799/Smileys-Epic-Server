@@ -1,3 +1,9 @@
+# v3.1.5* (WIP)
+## Recipe Changes
+- **Create**
+	- Smooth Basalt: Can be crushed into regular basalt (since smooth basalt cannot be chiseled, while regular basalt can)
+	- Crushed Silver Ore: Can now be smelted into silver ingots (This was not possible due to a bug before)
+
 # v3.1.4
 ## Mod Changes
 - Added Contraption Lights (optional)
