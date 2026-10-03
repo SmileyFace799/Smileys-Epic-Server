@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         event.replaceInput({ output: output, input: '#c:storage_blocks/iron' }, '#c:storage_blocks/iron_or_silver', '#c:storage_blocks/iron');
         event.replaceInput({ output: output, input: '#c:plates/iron' }, '#c:plates/iron_or_silver', '#c:plates/iron');
         event.replaceInput({ output: output, input: '#c:iron_bars' }, '#c:iron_or_silver_bars', '#c:iron_bars');
-    })
+    });
     
     // Restore mod-based exceptions
     EXCLUDED_MODS.forEach(mod => {
@@ -24,6 +24,5 @@ ServerEvents.recipes(event => {
         event.replaceInput({ mod: mod, input: '#c:storage_blocks/iron' }, '#c:storage_blocks/iron_or_silver', '#c:storage_blocks/iron');
         event.replaceInput({ mod: mod, input: '#c:plates/iron' }, '#c:plates/iron_or_silver', '#c:plates/iron');
         event.replaceInput({ mod: mod, input: '#c:iron_bars' }, '#c:iron_or_silver_bars', '#c:iron_bars');
-
-    })
+    });
 });

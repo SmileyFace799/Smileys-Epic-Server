@@ -229,16 +229,6 @@ ServerEvents.recipes(event => {
         "B  "
     ], {A: "#c:obsidians/crying", B: "#c:rods/wooden"});
 
-    // Basalt
-    create.crushing(["minecraft:basalt"], ["minecraft:smooth_basalt"]);
-
-    // Blackstone
-    event.remove({type: "create:haunting", output: "minecraft:blackstone"});
-    event.shapeless("minecraft:blackstone", ["#c:cobblestones", "#c:dyes/black"]);
-
-    // Infested Cobblestone
-    create.haunting(["minecraft:infested_cobblestone"], ["minecraft:cobblestone"]);
-
     // Nugget of Experience
     for (const stone of ["stone", "stone_bricks", "mossy_stone_bricks", "cracked_stone_bricks", "chiseled_stone_bricks", "deepslate"]) {
         create.crushing([CreateItem.of("create:experience_nugget")], [`minecraft:infested_${stone}`]);
@@ -321,23 +311,6 @@ ServerEvents.recipes(event => {
         "A  "
     ], {A: "minecraft:warped_wart_block", B: "alexsmobs:blood_sprayer", C: "alexsmobs:mimicream", D: "minecraft:bamboo"});
 
-    // Cinnabar
-    const cinnabar_recipes = {
-        cinnabar: ["cobblestone", "stone", "cobbled_deepslate", "deepslate"],
-        polished_cinnabar: ["polished_deepslate"],
-        cinnabar_bricks: ["stone_bricks", "deepslate_bricks"],
-        chiseled_cinnabar: ["chiseled_stone_bricks", "chiseled_deepslate"]
-
-    }
-    for (let [out, inps] of Object.entries(cinnabar_recipes)) {
-        for (let inp of inps) {
-            event.shaped("8x minecraft:" + out, [
-                "AAA",
-                "ABA",
-                "AAA"
-            ], {A: "minecraft:" + inp, B: "spelunkery:cinnabar"});
-        }
-    }
     create.milling(["minecraft:redstone", CreateItem.of("minecraft:redstone", 0.5)], ["spelunkery:cinnabar"]);
 
     // Crushed silver fix

@@ -1,11 +1,36 @@
-# v3.1.5* (WIP)
+# v3.1.5
 ## Recipe Changes
+- **Vanilla**
+	- Basalt: Can now be made by washing Magma Blocks. Can also be made by crushing Smooth Basalt or Polished Basalt
+	- Calcite: Can now be made by dyeing (white) Diorite
+	- Cobbled Deepslate: Can now be crafted with Basalt & Cobblestone
+	- Dark Prismarine: Changed from being crafted with Prismarine Shards & Black Dye, to being crafted with Veridium
+	- Dripstone Block: Can be made by spouting Lava into Granite
+	- Lava: Can now be made by mixing Magma Blocks
+	- Magma Block: Can now be crafted with Netherrack & Cobblestone
+	- Netherrack: Can now be crafted with Granite & Nether Warts
+	- Obsidian: Changed from washing Magma Blocks to mixing Lava & Water
+	- Pointed Dripstone: Can now be made by crushing Dripstone Blocks
+	- Prismarine: Can now be made by dyeing (cyan) Cobblestone, and by crushing Prismarine Bricks
+	- Prismarine Bricks: Changed from being crafted with Prismarine Shards, to being crafted with Prismarine
+	- Prismarine Crystals: Can now be crafted with Prismarine Shards & Nether Quartz. Crushing it now yields a smaller amount of Prismarine Shards instead of Nether Quartz, while the glowstone yield remains the same
+	- Prismarine Shard: Can now be made by crushing Prismarine
+	- Tuff: Can now be crafted with Cobbled Deepslate & Gravel. Crushing it now yields only silver
 - **Create**
-	- Smooth Basalt: Can be crushed into regular basalt (since smooth basalt cannot be chiseled, while regular basalt can)
-	- Crushed Silver Ore: Can now be smelted into silver ingots (This was not possible due to a bug before)
+	- Asurine: Can now be made by dyeing (light blue) Cobbled Deepslate. Crushing it into zinc now has a lower yield
+	- Crimsite: Can now be made by dyeing (red) netherrack. Crushing it now yields rough cinnabar instead of iron, at a lower rate
+	- Limestone: Can now be crafted with Diorite & Andesite
+	- Ochrum: Can now be crafted with Glowstone Dust & Cobbled Deepslate. Crushing it into gold now has a lower yield
+	- Veridium: Can now be made by dyeing (black) Prismarine, and by crushing Dark Prismarine. Crushing it into copper now has a lower yield
 - **Gems Realm:**
 	- Silver Sheet: Pressing silver ingots will now give silver plates, which can be used as a substitute for iron plates
 	- Silver Bars: Can now be used as a substitute for iron bars
+- **Vanilla Backport**
+	- Sulfur: Can now be made by dyeing (yellow) Limestone
+	- Sulfur Spike: Can now be made by crushing Sulfur
+## Other Changes
+- Fixed a bug where washing Gravel would yield Iron Nuggets, instead of Raw Iron Nuggets
+- Fixed a bug where smelting Crushed Silver Ore would yield nothing
 
 # v3.1.4
 ## Mod Changes
@@ -49,8 +74,10 @@ There was previously an issue where hitting a bison would cause a crash, this is
 - **Terralith**
 	- Disabled in-game message upon first joining a singleplayer world
 ## Recipe Changes
-- **Spelunkery**
-	- Cinnabar: Made craftable into Vanilla Backport's Cinnabar blocks, also made millable into redstone
+- **Vanilla**
+	- Redstone: Can now be made by crushing Cinnabar (item)
+- **Vanilla Backport**
+	- Cinnabar (block) (+ variants): Can now be crafted with various stone or deepslate blocks and Cinnabar (item)
 ## Other changes
 - **Occultism**
 	- Fixed a bug with any recipe added by occultism where a silver ingot, nugget or block in the input was converted into iron

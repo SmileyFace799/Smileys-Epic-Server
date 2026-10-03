@@ -376,6 +376,25 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Waystones are free to use
     - Waystones teleport any pets following you
 # Recipe changes
+- **Vanilla**
+	- Basalt: Can now be made by washing Magma Blocks. Can also be made by crushing Smooth Basalt or Polished Basalt
+    - Blackstone: Changed from haunting cobblestone to dyeing (black) cobblestone
+	- Calcite: Can now be made by dyeing (white) Diorite
+	- Cobbled Deepslate: Can now be crafted with Basalt & Cobblestone
+	- Dark Prismarine: Changed from being crafted with Prismarine Shards & Black Dye, to being crafted with Veridium
+	- Dripstone Block: Can be made by spouting Lava into Granite
+    - Infested Cobblestone: Can now be made by haunting cobblestone
+	- Lava: Can now be made by mixing Magma Blocks
+	- Magma Block: Can now be crafted with Netherrack & Cobblestone
+	- Netherrack: Can now be crafted with Granite & Nether Warts
+	- Obsidian: Changed from washing Magma Blocks to mixing Lava & Water
+	- Pointed Dripstone: Can now be made by crushing Dripstone Blocks
+	- Prismarine: Can now be made by dyeing (cyan) Cobblestone, and by crushing Prismarine Bricks
+	- Prismarine Bricks: Changed from being crafted with Prismarine Shards, to being crafted with Prismarine
+	- Prismarine Crystals: Can now be crafted with Prismarine Shards & Nether Quartz. Crushing it now yields a smaller amount of Prismarine Shards instead of Nether Quartz, while the glowstone yield remains the same
+	- Prismarine Shard: Can now be made by crushing Prismarine
+	- Redstone: Can now be made by crushing Cinnabar (item)
+	- Tuff: Can now be crafted with Cobbled Deepslate & Gravel. Crushing it now yields only silver
 - **Alex's Mobs Continued**
     - Blood Sprayer: Changed recipe to not use removed items
     - Cave Centipede Leggings: Changed recipe to not use removed items
@@ -389,9 +408,12 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Bug skewer: Changed recipe to not use removed items
     - Tendon Jerky: Changed recipe to not use removed items
 - **Create**
-    - Blackstone: Changed from haunting cobblestone to dyeing cobblestone
-    - Infested Cobblestone: Can now be made by haunting cobblestone
+    - Asurine: Can now be made by dyeing (light blue) Cobbled Deepslate. Crushing it into zinc now has a lower yield
+	- Crimsite: Can now be made by dyeing (red) netherrack. Crushing it now yields rough cinnabar instead of iron, at a lower rate
+	- Limestone: Can now be crafted with Diorite & Andesite
     - Nugget of Experience: Can now be made by crushing any infested block
+	- Ochrum: Can now be crafted with Glowstone Dust & Cobbled Deepslate. Crushing it into gold now has a lower yield
+	- Veridium: Can now be made by dyeing (black) Prismarine, and by crushing Dark Prismarine. Crushing it into copper now has a lower yield
 - **Create: Numismatics**
     - Bank Card (all colors): Made slightly easier to craft, does not require Create materials, can be dyed to change color
     - Bank Terminal: Made slightly easier to craft, does not require Create materials
@@ -405,8 +427,8 @@ To quickly add all the recommended mods, they are also made easily available in 
 - **Project Red Transmission**
     - Red Alloy Wire: Now crafted with copper & redstone instead of red alloy ingots
 - **RE:Constructed Wands**
-  - Removed all non-infinite construction wands
-  - Made the Infinity Wand significantly easier to craft
+    - Removed all non-infinite construction wands
+    - Made the Infinity Wand significantly easier to craft
 - **Star Worm Equestrian**
     - Blaze Rod: Removed recipe added by the mod
     - Block'o'Water: Made significantly easier to craft
@@ -418,6 +440,10 @@ To quickly add all the recommended mods, they are also made easily available in 
     - Shavings: Changed from smelting leaves to being crafted
     - Sweet Feed: Recipe now accepts the egg tag instead of just the vanilla egg item
     - Withered Amethyst Horse Armor: Made significantly easier to craft
+- **Vanilla Backport**
+	- Cinnabar (block) (+ variants): Can now be crafted with various stone or deepslate blocks and Cinnabar (item)
+	- Sulfur: Can now be made by dyeing (yellow) Limestone
+	- Sulfur Spike: Can now be made by crushing Sulfur
 - **Waystones**
     - Portstone: (+ variants): Made slightly easier to craft, can be dyed to change color
     - Sharestone (+ variants): Made by dyeing a sharestone, can be dyed to change color, or converted back into a waystone
