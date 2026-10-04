@@ -93,3 +93,15 @@ BlockEvents.modification(event => {
     })
   }
 })
+
+/* UNTESTED AI SLOP CODE, SEE 0_1_slime_ward.js IN server_scripts
+StartupEvents.registry('block', event => {
+    event.create('slime_ward')
+        .displayName('Slime Ward')
+        .soundType('metal')
+        .hardness(3.0)
+        .resistance(6.0)
+        .requiresTool()
+        .textureAll('minecraft:slime_block')
+})
+ */
